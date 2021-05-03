@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://kit.fontawesome.com/e2bf1a1815.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="main">
+
+        <div class="form">
+                
+                <h1>The first form</h1>
+    <form action="destination.htm" method="POST">
+        <fieldset>
+            <legend><span class="section">1</span>Your Info</legend>
+            
+            <label for="name">First name:</label>
+<br> 
+        <input required type="text" name="first_name" placeholder="Enter your first name">
+        <i class="fa fa-user icon"></i>
+<br><br>
+        <label for="name"> Last Name:</label>
+        <br> 
+        <input required type="text" name="last_name" placeholder="Enter your last name">
+        <i class="fa fa-user icon"></i>
+<br><br>
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" name="birthday">
+        <i class="fa fa-calendar-alt"></i>
+<br><br>       
+        <label for="email"> Email Adress:</label>
+        <br> 
+        <input type="text" name="email" required placeholder="Enter your valid email">
+        <i class="fa fa-envelope"></i>
+<br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" required class="area_code" placeholder="Area-code" >
+        <input type="tel" required class="telephone number" placeholder="Phone number">
+        <i class="fa fa-phone"></i>
+<br><br>
+         <label for="adress">Adress:</label><br>
+        <textarea name="adress" cols="30" rows="5" placeholder="Enter your adress"></textarea>
+        <i class="fa fa-map-pin"></i>
+<br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+</fieldset>
+
+
+        </form>
+        
+        <center>
+        
+                <a href="destination.htm" class="next">Next&raquo;</a>
+        
+
+        </center>
+        <br>
+         </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url(../../sekiller/Caribbean-beach.jpg);
+    background-size: cover;
+    background-position: absolute;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+    border-radius: 10px;
+    color: royalblue;
+
+}
+
+form {
+    max-width: 550px;
+    margin: 15px auto;
+    padding: 10px 10px;
+    background: mediumspringgreen;
+    border-radius: 8px;
+}
+
+div.main {
+    width: 600px;
+    margin: 100px auto 0px auto;
+}
+
+div.form {
+    background-color: thistle;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid rgba(red, green, blue, alpha);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    padding: 8px 16px;
+}
+
+a:hover{
+    background-color: #ddd;
+    color: navy;
+}
+
+.previous {
+    background-color: gold;
+    color: navy;
+}
+
+.next {
+    background-color: gold;
+    color: navy;
+}
+
+fieldset {
+    margin-bottom: 30px;
+    
+}
+legend {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input:focus, textarea:focus{
+    box-shadow: 0 0 15px rgb(238, 81, 199);
+    border: 1px solid rgb(238, 81, 199); 
+}
+
+.section {
+    background-color: fuchsia;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+
+}
+
+button {
+    background-color: lightyellow;
+    color: violet; 
+    border-radius: 6px;
+    box-shadow: 0 0 10px limegreen ;
+    border: 1px solid limegreen ;
+    font-size: 20px;
+}
+
