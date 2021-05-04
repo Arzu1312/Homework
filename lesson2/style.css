@@ -1,6 +1,9 @@
 * {
+   
     box-sizing: border-box;
 }
+
+
 body {
     background: url(../../sekiller/Caribbean-beach.jpg);
     background-size: cover;
@@ -9,39 +12,48 @@ body {
     background-repeat: no-repeat;
 }
 
-
 h1{
     text-align: center;
     padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 0px;
     border-radius: 10px;
-    color: royalblue;
+    color: red;
 
+}
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    font-size: 20px;
 }
 
 form {
     max-width: 550px;
     margin: 15px auto;
     padding: 10px 10px;
-    background: mediumspringgreen;
+    background: rgb(28, 159, 177);
     border-radius: 8px;
+    box-shadow: 2px 2px 15px ;
+    color: darkblue;
 }
 
 div.main {
-    width: 600px;
-    margin: 100px auto 0px auto;
+        width: 600px;
+        margin: 100px auto 0px auto;
+    
 }
 
 div.form {
-    background-color: thistle;
+    background-color: #ff63e550;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 50px;
     border: 1px solid rgba(red, green, blue, alpha);
-    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 15px ;
     color: #fff;
 
 }
+
 
 a {
     text-decoration: none;
@@ -71,6 +83,7 @@ fieldset {
 legend {
     display: block;
     margin-bottom: 30px;
+    font-size: 28px;
 }
 
 input:focus, textarea:focus{
@@ -79,17 +92,18 @@ input:focus, textarea:focus{
 }
 
 .section {
-    background-color: fuchsia;
+    background-color: mediumspringgreen;
     color: white;
     height: 30px;
     width: 30px;
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 1;
     margin-right: 4px;
     line-height: 30px;
     text-align: center;
     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     border-radius: 100%;
+    box-shadow: 2px 2px 15px  ;
 
 }
 
@@ -100,5 +114,15 @@ button {
     box-shadow: 0 0 10px limegreen ;
     border: 1px solid limegreen ;
     font-size: 20px;
+}
+
+.box input[type= "text"], input[type= "date"], input[type= "tel"], input[type= "email"], 
+ textarea, select {
+    border: 0;
+    margin: 5px auto;
+    outline: none;
+    border-radius: 16px;
+    transition: 0.25s;
+    
 }
 
