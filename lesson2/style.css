@@ -5,11 +5,11 @@
 
 
 body {
-    background: url(../../sekiller/Caribbean-beach.jpg);
-    background-size: cover;
+    background: url(../../sekiller/amul.jpg);
     background-position: absolute;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -123,6 +123,8 @@ button {
     outline: none;
     border-radius: 16px;
     transition: 0.25s;
+    padding: 7px 10px;
+    width: 190px;
     
 }
 
