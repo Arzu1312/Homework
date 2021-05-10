@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../sekiller/Seoul-Wallpapers-and-Backgrounds.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.nav {
+    
+   display:flex;
+   align-items:flex-end ;
+   cursor: pointer;
+}
+
+nav {
+   flex: 1;
+    text-align: left;
+    margin-top: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: mediumslateblue;
+     font-size: 14px;
+     background-color: paleturquoise;
+     width: 70px;
+     border: 2px solid #fff;
+     height: 40px;
+     line-height:40px;
+     text-align: center;
+     float: left;
+     border-radius: 25px;
+}    
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1{
+    color: cyan;
+    font-size: 80px;
+}
+
+.box{
+    color: lightcyan;
+    font-size: 18px;
+    font-style: italic;
+}
+
+p{
+    color: blue;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+button {
+    width: 180px;
+    color: ghostwhite;
+    font-size: 16px;
+    padding: 12px 0;
+    background: gold;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+
+.view {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    outline: none;
+    background-position: center;
+    background-size: cover;
+    transition: tranform 0.5s;
+    box-shadow: 4px 6px 8px 2px lightgreen;
+}
+
+.view1 {
+    background-image: url(../sekiller/Gyeongbokgung_ulwkpn.jpg);
+}
+
+.view2 {
+    background-image: url(../sekiller/3199.jpeg);
+}
+
+.view3 {
+    background-image: url(../sekiller/seul.jpeg);
+}
+
+.view4 {
+    background-image: url(../sekiller/Lotte-World-seul.webp);
+}
+
+.view:hover{
+    transform: translateY(-10px);
+}
+
+h4{
+    color:crimson;
+    text-shadow: 0 0 5px #999;
+}
+    
