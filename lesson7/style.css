@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Homework/sekiller/1843880.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.logo  {
+    width: 70px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 50px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    margin-left: 150px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    width: 60px;
+    text-decoration: none;
+    color: rgb(59, 32, 178);
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid yellowgreen;
+    font-style: italic;
+    background-color: rgb(250, 255, 181);
+    text-align: center;
+    border-radius: 18px;
+}
+
+.title-text h1{
+    font-style: italic ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: darkblue;
+    text-shadow: 2px 2px yellow;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    text-align: left;
+    
+}
+
+.title-text p {
+    font-size: 20px;
+    color: palegreen;
+    text-align: left;
+    text-shadow: 2px 2px darkorchid;
+
+}
+
+.nav .buton {
+    font-size: 18px;
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(red, green, blue, alpha);
+}
+
+.image {
+    bottom: 180px ;
+    position: absolute;
+    right: 160px;
+    border-radius: 10px;
+    box-shadow: 3px 8px 22px  rgb(59, 32, 178);
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network .fab {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px  solid rgb(72, 255, 0);
+    cursor: pointer;
+    color: rgb(255, 0, 191);
+    margin: 80px 15px 0;
+    transition: 0.5s;
+}
+ 
+.social-network .fab:hover{
+    background: rgb(208, 224, 64);
+    color: white;
+    transform: translateY(-7px);
+}
+
