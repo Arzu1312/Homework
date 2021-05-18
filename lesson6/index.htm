@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e2bf1a1815.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="banner" id="banner">
+        <div class="text">
+            <h1>Design the house of your dreams</h1>
+            <p>There's no place like home</p>
+            <div class="btn">
+                <button type="button"><span></span> Read More</button> 
+                <button type="button"><span></span> Explore</button> 
+              </div>
+        </div>
+
+    </section>
+   
+  <div id="navigation">
+      <nav>
+          <ul>
+              <li><a href="#banner">HOME</a></li>
+              <li><a href="#feature">FEATURES</a></li>
+              <li><a href="#service">SERVICES</a></li>
+              <li><a href="#contacts">CONTACT</a></li>
+          </ul>
+      </nav>
+
+  </div>
+  <div id="menubtn">
+    <img src="../sekiller/menu (1).png" id="menu">
+</div>
+<script>
+  var menubtn = document.getElementById("menubtn")
+  var navigation = document.getElementById("navigation")
+  var menu = document.getElementById("menu")
+
+  menubtn.onclick = function () {
+      if(navigation.style.right == "-180px"){
+        navigation.style.right = "0";
+        menu.src = "../sekiller/close-window.png";
+      }
+        else{
+            navigation.style.right = "-180px";
+            menu.src = "../sekiller/menu (1).png";
+        }
+  }
+
+</script>
+
+ <!--Features-->
+
+ <section id="feature">
+    <div class="feature-text">
+        <p>Features</p>
+        <h1>Why Choose Us</h1>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>Experienced Staff</h1>
+            <h1>Affordable Cost</h1>
+            <h1>Perfect Design</h1>
+        </div>
+        <div class="feature-img">
+            <img src="../sekiller/Interior-design.jpg" width="500" height="700">
+        </div>
+    </div>
+
+ </section>
+
+ <!--Services-->
+    <section id="service">
+        <div class="service-text">
+            <p>Services</p>
+            <h1>We Provide Better</h1>
+        </div>
+        <div class="service-name">
+            <div class="single">
+                <img src="../sekiller/kitchen.jpg" width="300" height="400">
+                <div class="fon"></div>
+               <div class="service-title">
+                   <h1>Kitchen Design</h1>
+                   <hr>
+                   <p>Design the kitchen where you will cook your delicious dishes with us.</p>
+               </div>
+            </div>
+            <div class="single">
+                <img src="../sekiller/sitting-room.jpg" width="300" height="400">
+                <div class="fon"></div>
+                <div class="service-title">
+                    <h1>Sitting-Room Design</h1>
+                    <hr>
+                    <p>Create a sitting room with us from the beginning where you can have interesting conversations and watch movies.</p>
+                </div>
+            </div>
+            <div class="single">
+                <img src="../sekiller/bedroom.jpg" width="300" height="400">
+                <div class="fon"></div>
+                <div class="service-title">
+                    <h1>Bedroom Design</h1>
+                    <hr>
+                    <p>Entrust us with the design of your bedroom, where you can relax and fall asleep at the end of a tiring day.</p>
+                </div>
+            </div>
+            <div class="single">
+                <img src="../sekiller/bathroom.png" width="300" height="400">
+                <div class="fon"></div>
+                <div class="service-title">
+                    <h1>Bathroom Design</h1>
+                    <hr>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT-->
+
+        <section id="contacts">
+            <div class="contact-text">
+                <p>CONTACT</p>
+                <h1>Visit Shop Today</h1>
+            </div>
+            <div class="contact-row">
+                <div class="contact-left">
+                    <h1>Opening Hours</h1>
+                    <p><i class="fas fa-clock"> </i> Monday to Friday - 09:00-18:00</p>
+                    <p><i class="fas fa-clock"> </i>Saturday - 09:00-15:00 </p>
+    
+                </div>
+                <div class="contact-right">
+                    <h1>Get In Touch</h1>
+                    <p>Baku, A.Racabli street <i class="fas fa-street-view"></i></p>
+                    <p>arzu.shahbazli@bk.ru <i class="fas fa-inbox"></i></p>
+                    <p>+994 513301312 <i class="fas fa-mobile-alt"></i></p>
+                </div>
+            </div>
+            <div class="social-network">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </section>
+</body>
+</html>
