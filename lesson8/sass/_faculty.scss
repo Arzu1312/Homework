@@ -1,0 +1,42 @@
+.faculty {
+    width: 80%;
+    margin-top: 400px;
+    
+
+    h1 {
+        font-size: 54px;
+        font-family: 'Courgette', cursive;
+        color: darkblue;
+        text-shadow: 2px 2px 2px mediumorchid;
+        margin-left: 200px;
+        text-align: center;
+    
+       }
+
+       .faculty-list {
+           margin-top: 50px;
+           margin-left: 250px;
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-between;
+           cursor: pointer;
+
+           p{
+            display: inline-block;
+            text-decoration: none;
+            color: gold;
+            border: 1px solid white;
+            margin-top: 20px;
+            padding: 12px 30px;
+            font-size: 20px;
+            background: rgb(165, 95, 179) ;
+            position: relative;
+            cursor: pointer;
+           }
+
+           
+
+       }
+
+}

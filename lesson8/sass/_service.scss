@@ -1,0 +1,35 @@
+.service {
+   width: 80%;
+
+   h1 {
+        margin-top: 250px;
+        font-size: 54px;
+        font-family: 'Courgette', cursive;
+        color: darkblue;
+        text-shadow: 2px 2px 2px mediumorchid;
+        margin-left: 200px;
+        text-align: center;
+        
+   }
+
+   .service-list {
+     margin: 50px 80px;
+     
+       display: flex;
+       flex-direction: column;
+
+       img {
+          float: left;
+          border-radius: 20px ;
+          box-shadow: 3px 3px 3px greenyellow;
+       }
+       p{
+        text-align: center;
+        font-size: 24px;
+        font-style: italic;
+        color: darkblue;
+       }
+   }
+
+
+}

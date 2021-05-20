@@ -1,0 +1,25 @@
+@mixin space-between {
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+}
+
+@mixin list {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 8px 20px;
+    position: relative;
+}
+
+
+@mixin link{
+    text-decoration: none;
+    color: darkblue; 
+    font-size: 30px;
+    text-shadow: 2px 3px 4px rgb(128, 0, 107);
+    font-style: italic;
+    font-weight: bolder;
+} 
+
+

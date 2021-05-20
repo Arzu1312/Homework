@@ -1,0 +1,29 @@
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    .box {
+        width: 200px;
+        height: 250px;
+        margin: 20px;
+        background: rgb(79, 212, 157);
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px mediumblue;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover {
+            transform: translateY(-7px);
+        }
+
+        p{
+            padding: 20px ;
+            font-size: 30px;
+            color: crimson;
+            
+        }
+    }
+}
+   
+
