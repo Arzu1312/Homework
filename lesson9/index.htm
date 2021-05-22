@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salimo</title>
+    <link rel="stylesheet" href="sass/style.css">
+    <!--Js-->
+    
+    <script src="https://kit.fontawesome.com/e2bf1a1815.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="dark.js"></script>
+</head>
+<body>
+
+    <!--Dark mod-->
+    <label id="mode-buton" class="mode-control">
+        <input  type="checkbox">
+        <span>Dark mod</span>
+        <span>Light mod</span>
+    </label>
+    
+    <!--Loading-->
+    <div class="loading">
+     <img src="../sekiller/Salimo - One Page Parallax_files/yellow.png" class="load-title" >
+     <img src="../sekiller/Rolling-1s-84px (2).gif" class="gif" >
+    </div>
+    <!--Js kodlari-->
+    <script>
+      $(window).on ("load", function() {
+         $(".loading").fadeOut("slow");
+      });
+    </script>
+</body>
+</html>

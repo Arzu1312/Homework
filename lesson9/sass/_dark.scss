@@ -1,0 +1,29 @@
+body {
+    background: white;
+    color: black;
+   
+    .dark {
+        background: black;
+        color: white;
+    }
+} 
+  
+
+.mode-control {
+     
+    input {
+        position: absolute;
+        opacity: 0;
+    }
+
+    span:nth-of-type(2) {
+        display: none;
+    }
+    input:checked + span {
+        display: none;
+
+        &+span {
+            display: inline-block;
+        }
+    }
+}
