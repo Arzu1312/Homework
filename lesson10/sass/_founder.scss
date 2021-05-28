@@ -1,0 +1,34 @@
+.founder {
+    width: 100%;
+    height: 60vh;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7158613787311799) 0%), url(../../sekiller/1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+ .founder-container {
+     transform: translate(10px,100px);
+       .founder-wrapper {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        .founder-box {
+                img {
+                    margin-left: 180px;
+                    margin-top: 20px;
+                   border-radius: 50%;
+                   border: 5px solid gray;
+                }
+
+                h5,p {
+                   margin-top: 10px;
+                    text-align: center;
+                    color: white;
+                }
+        }
+       }
+ }
+
+
+}

@@ -1,0 +1,145 @@
+
+.top-header {
+    background-color: #262626 ;
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+   
+         
+    .envato-logo {
+        margin-left: 80px;
+        margin-top: 20px;
+
+       a {
+            text-decoration: none;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            
+
+            p{  
+                font-size: 20px;
+                color: white;
+                transform: translate(30px,-27px);
+
+                span {
+                    
+                     font-size: 20px;
+                    color: limegreen;
+                    transform: translate(30px,-27px);
+                }
+                   
+            }
+
+        }
+    }
+
+    .header-button {
+                
+                   border-radius: 5px;
+                   padding-top: 5px;
+                   width: 80px;
+                   height: 28px;
+                   background-color: limegreen;
+                   transform: translate(1350px, -55px);
+                   
+        .buy-button {
+
+            a {
+                
+                margin-left: 10px;
+                text-decoration: none;
+                color: white;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+            }
+        }
+    }
+}
+
+
+.header-area {
+         width: 100%;
+         height: 40px;
+         background: #333;
+     
+        .top-header-info {
+            background: #333;
+            .left-info {
+                transform: translate(200px,15px);
+                 a { 
+                     margin-right: 10px;
+                     color: white;
+                     text-decoration: none;
+                 }
+            }
+
+            .right-info {
+                    transform: translateX(1200px);
+                ul {
+                       display: flex;
+                       flex-direction: row;
+                       
+                    li {
+                        margin-right: 20px;
+                             list-style: none;
+                             transform: scale(1);
+                             transition: 0.3s ease-in-out;
+
+                             &:hover {
+                                transform: scale(1.1);
+                            }
+                        a {
+                            color: white;
+                            text-decoration: none; 
+                        }
+                    }
+                }
+            }
+            
+    }
+
+
+    .header-nav {
+        background: rgba(0, 0, 0, 0);
+        box-shadow: 2px 2px 2px gray;
+
+        .left-nav {
+            transform: translate(200px, 30px);
+            a {
+                font-size: 40px;
+                color: #333;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: bolder;
+                text-decoration: none;
+               
+            }
+        }
+
+        .right-nav {
+            transform: translateX(750px);  
+            nav {
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+
+                    li {
+                        margin-right: 20px;
+                        list-style: none;
+
+
+                        a {
+                            text-decoration: none;
+                            color: gray ;
+                            font-weight: bold;
+
+                            &:hover {
+                                color: black;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
