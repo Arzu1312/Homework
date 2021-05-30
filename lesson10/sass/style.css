@@ -1,3 +1,163 @@
+.header {
+  width: 100%;
+  -webkit-transform: translateY(-70px);
+          transform: translateY(-70px);
+  position: fixed;
+  z-index: 999;
+}
+
+.header .top-header {
+  background-color: #262626;
+  height: 60px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.header .top-header .envato-logo {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.header .top-header .envato-logo a {
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header .top-header .envato-logo a p {
+  font-size: 20px;
+  color: white;
+  -webkit-transform: translate(30px, -27px);
+          transform: translate(30px, -27px);
+}
+
+.header .top-header .envato-logo a p span {
+  font-size: 20px;
+  color: limegreen;
+  -webkit-transform: translate(30px, -27px);
+          transform: translate(30px, -27px);
+}
+
+.header .top-header .header-button {
+  border-radius: 5px;
+  padding-top: 5px;
+  width: 80px;
+  height: 28px;
+  background-color: limegreen;
+  -webkit-transform: translate(1350px, -55px);
+          transform: translate(1350px, -55px);
+}
+
+.header .top-header .header-button .buy-button a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header .header-area {
+  width: 100%;
+  height: 40px;
+  background: #333;
+}
+
+.header .header-area .top-header-info {
+  background: #333;
+}
+
+.header .header-area .top-header-info .left-info {
+  -webkit-transform: translate(200px, 15px);
+          transform: translate(200px, 15px);
+}
+
+.header .header-area .top-header-info .left-info a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.header .header-area .top-header-info .right-info {
+  -webkit-transform: translateX(1200px);
+          transform: translateX(1200px);
+}
+
+.header .header-area .top-header-info .right-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .header-area .top-header-info .right-info ul li {
+  margin-right: 20px;
+  list-style: none;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.header .header-area .top-header-info .right-info ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.header .header-area .top-header-info .right-info ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header .header-area .header-nav {
+  background: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 2px 2px 2px gray;
+          box-shadow: 2px 2px 2px gray;
+}
+
+.header .header-area .header-nav .left-nav {
+  -webkit-transform: translate(200px, 30px);
+          transform: translate(200px, 30px);
+}
+
+.header .header-area .header-nav .left-nav a {
+  font-size: 40px;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.header .header-area .header-nav .right-nav {
+  -webkit-transform: translateX(750px);
+          transform: translateX(750px);
+}
+
+.header .header-area .header-nav .right-nav nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .header-area .header-nav .right-nav nav ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.header .header-area .header-nav .right-nav nav ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.header .header-area .header-nav .right-nav nav ul li a:hover {
+  color: black;
+}
+
 .team {
   width: 100%;
   height: 100vh;
@@ -646,158 +806,6 @@
 .home .swiper-pagination {
   -webkit-transform: translateX(-400px);
           transform: translateX(-400px);
-}
-
-.top-header {
-  background-color: #262626;
-  height: 60px;
-  width: 100%;
-  border: 1px solid black;
-}
-
-.top-header .envato-logo {
-  margin-left: 80px;
-  margin-top: 20px;
-}
-
-.top-header .envato-logo a {
-  text-decoration: none;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.top-header .envato-logo a p {
-  font-size: 20px;
-  color: white;
-  -webkit-transform: translate(30px, -27px);
-          transform: translate(30px, -27px);
-}
-
-.top-header .envato-logo a p span {
-  font-size: 20px;
-  color: limegreen;
-  -webkit-transform: translate(30px, -27px);
-          transform: translate(30px, -27px);
-}
-
-.top-header .header-button {
-  border-radius: 5px;
-  padding-top: 5px;
-  width: 80px;
-  height: 28px;
-  background-color: limegreen;
-  -webkit-transform: translate(1350px, -55px);
-          transform: translate(1350px, -55px);
-}
-
-.top-header .header-button .buy-button a {
-  margin-left: 10px;
-  text-decoration: none;
-  color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.header-area {
-  width: 100%;
-  height: 40px;
-  background: #333;
-}
-
-.header-area .top-header-info {
-  background: #333;
-}
-
-.header-area .top-header-info .left-info {
-  -webkit-transform: translate(200px, 15px);
-          transform: translate(200px, 15px);
-}
-
-.header-area .top-header-info .left-info a {
-  margin-right: 10px;
-  color: white;
-  text-decoration: none;
-}
-
-.header-area .top-header-info .right-info {
-  -webkit-transform: translateX(1200px);
-          transform: translateX(1200px);
-}
-
-.header-area .top-header-info .right-info ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.header-area .top-header-info .right-info ul li {
-  margin-right: 20px;
-  list-style: none;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-.header-area .top-header-info .right-info ul li:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.header-area .top-header-info .right-info ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.header-area .header-nav {
-  background: rgba(0, 0, 0, 0);
-  -webkit-box-shadow: 2px 2px 2px gray;
-          box-shadow: 2px 2px 2px gray;
-}
-
-.header-area .header-nav .left-nav {
-  -webkit-transform: translate(200px, 30px);
-          transform: translate(200px, 30px);
-}
-
-.header-area .header-nav .left-nav a {
-  font-size: 40px;
-  color: #333;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-.header-area .header-nav .right-nav {
-  -webkit-transform: translateX(750px);
-          transform: translateX(750px);
-}
-
-.header-area .header-nav .right-nav nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.header-area .header-nav .right-nav nav ul li {
-  margin-right: 20px;
-  list-style: none;
-}
-
-.header-area .header-nav .right-nav nav ul li a {
-  text-decoration: none;
-  color: gray;
-  font-weight: bold;
-}
-
-.header-area .header-nav .right-nav nav ul li a:hover {
-  color: black;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
