@@ -1,0 +1,98 @@
+.pricing {
+    width: 100%;
+    height: 100vh;
+      margin-top: 100px;
+    .pricing-container {
+
+        .pricing-title {
+
+            h1 {
+                transform: translateX(300px);
+                font-weight: bolder;
+                font-size: 46px;
+                color: white;
+            }
+
+            .right-title {
+                display: flex;
+                justify-content: center;
+                transform: translate(300px,-60px);
+                p {
+                    color: white;
+                    font-size: 24px;
+                    margin-left: 30px;
+                }
+
+                .form-check {
+                    font-size: 40px;
+                    margin-left: 40px;
+                    transform: translateY(-15px);
+
+                   
+                }
+            }
+        }
+
+        .pricing-main {
+
+            .pricing-box {
+                 display: flex;
+                margin-left: 50px;
+                .pricing-item {
+                    border-radius: 15px;
+                    width: 400px;
+                    height: 500px;
+                    margin-left: 50px;
+                    background-image: linear-gradient(135deg, #3A3E41 0%, #2A2D30 49%, #242628 100%), 
+                    linear-gradient(139deg, #434B54 1%, #2A2C2F 45%, #191B1E 75%);
+                    
+                    .item-text {
+                        h3 {
+                            text-align: center;
+                            margin-top: 20px;
+                            color:#A0A1AC;
+                        }
+
+                       
+
+                        h5,h6 {
+                            color:#A0A1AC;
+                            transform: translate(230px,-50px);
+                        }
+                    } 
+
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        width: 300px;
+                        transform: translate(60px,-300px);
+                        border: 0.5px solid rgba(26, 25, 25, 0.76);
+                    }
+
+                     
+                   
+
+                    .box-text {
+                        margin-top: 50px;
+                        font-size: 20px;
+                        margin-left: 100px;
+                    }
+
+                    .button-box {
+                        
+                        button {
+                            background-image: linear-gradient(135deg, #3A3E41 0%, #2A2D30 49%, #242628 100%), linear-gradient(139deg, #434B54 1%, #2A2C2F 45%, #191B1E 75%); 
+                            border-radius: 7px;
+                            padding: 6px 20px; 
+                            font-size: 20px; 
+                            color: white; 
+                            margin-top: 50px;
+                            margin-left: 100px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
