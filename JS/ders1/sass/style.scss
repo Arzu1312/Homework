@@ -1,0 +1,54 @@
+body {
+    background-image: url(../img/1605854887_emiu5_xw8a2eht.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+
+    .text {
+        transform: translateY(300px);
+        text-align: center;
+
+        h1 {
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            border: 1px solid black;
+            color: red;
+            font-size: 20px;
+            padding: 10px 40px;
+
+            &:hover {
+
+                background-color: black;
+                color: white;
+            }
+
+            i {
+                
+                font-size: 20px;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+  .section2 {
+      
+      width: 100%;
+      height: 150vh;
+
+     .wrapper {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+
+  }  
+}
