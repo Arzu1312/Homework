@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/e2bf1a1815.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Razor-Electronics Store Bigcommerce</title>
+  </head>
+  <body>
+       <!--header-->
+   <div class="header-container" >
+    <div class="top-header" >
+      
+       <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1f2c46;">
+        <p>Free International Shipping. No Minimum Purchase Required*</p> 
+        <div class="container-fluid">
+         
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="transform: translateX(550px) ; font-size: 13px;">
+            <ul class="navbar-nav" >
+              <li class="nav-item" >
+                <a class="nav-link active " id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false"  href="#"  >My Account <i class="fas fa-chevron-down"></i> </a>
+                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdown"  >
+                    <li><a class="dropdown-item" href="#">Sign in</a></li>
+                    <li><a class="dropdown-item" href="#">Register</a></li>
+
+                  </ul>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Wish Lists</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Check out</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Gift Certificates</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active" href="#" id="navbarDropdownMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/us.gif" > USD <i class="fas fa-chevron-down"></i>  </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+                  <li><a class="dropdown-item" href="#"><img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/au.gif" alt=""> Australian Dollar</a></li>
+                  <li><a class="dropdown-item" href="#"> <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/us.gif" >USD</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="central-header">
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/logo_1553585953__67107.original.png" style="transform: translate(170px,20px);">
+
+      <div class="input-group">
+       <input type="text" placeholder="Search the store" style="width: 400px; padding: 10px 30px; border-top-left-radius: 20px; border-bottom-left-radius: 20px;  border: none; transform: translate(480px, -20px);">
+     <button type="button" style="padding: 7px 40px; transform: translate(480px,-20px); ">Search</button>
+      </div>
+
+     <div class="user-cart" >
+        <div class="user-part" style="transform: translate(1100px,-110px);">
+          <a class="nav-link active" href="#" style="text-decoration: none;">
+            <i class="fas fa-user" style="transform: translate(-50px,40px);"></i>
+            <h6>Hello, Sign In</h6>
+            <p>My Account</p>
+          </a>
+        </div>
+         
+        <div class="cart-part" style="transform: translate(1300px,-235px);">
+          <a class="nav-link active" href="#" style="text-decoration: none; ">
+            <i class="fas fa-shopping-cart" style="transform: translate(-50px,40px);"></i>
+            <h6>My Cart</h6>
+            <p>0 items - $0.00</p>
+          </a>         
+        </div>
+
+     </div>
+    </div>
+
+    <div class="bottom-header">
+      <div class="bottom-left" style="z-index: 20; position: fixed;">
+          <a class="nav-link active " id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false"  href="#"  >ALL CATEGORIES <i class="fas fa-bars" style="margin-left: 60px;"></i> </a>
+          <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdown" >
+              <li><a class="dropdown-item" href="#">Electronic & Digital</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Health & Beauty</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Top 10 Offers</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Smartphones & Tablets</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Jewelry & Watches</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Book & Office</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Cameras & Camcorders</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Video Games & Systems</a></li>
+             
+            </ul>
+       
+      </div>
+
+      <div class="bottom-center" >
+        <nav class="navbar navbar-expand-lg navbar-light " style="transform: translate(480px,-60px);">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav"style="transform:translateY(80px); z-index: 20; position: fixed; " >
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" href="#">Blog</a>
+                <a class="nav-link active" href="#">Page</a>
+                <a class="nav-link active" href="#" >Contact Us</a>
+                <a class="nav-link active" href="#" >Buy Theme Now</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+</div> 
+<!-------------->
+
+
+<!--home start-->
+<section class="home">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/slider_1.jpg" height=450px class="d-block w-300">
+       <div class="home-text" style="transform: translate(300px,-300px);">
+        <h1 class="animate__animated animate__fadeInDownBig" style="color: white; transform: translateY(-100px);" >Smart Electric New Cooker 2018/2019</h1>
+        <p class="animate__animated animate__fadeInDownBig" style="color: white;transform: translateY(-20px);">This all-in-one cooking solution uses an induction system that reacts</p>
+        <a  href="#">Get It Now</a>
+       </div>
+        
+      </div>
+      <div class="carousel-item">
+        <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/slider_2.jpg" height=450px class="d-block w-300">
+        <div class="home-text" style="transform: translate(300px,-300px);">
+        <h1 class="animate__animated animate__fadeInDownBig" style="color: white; transform: translateY(-100px);">Featured Products  Coffee Machine 2018/2019</h1>
+        <p class="animate__animated animate__fadeInDownBig" style="color: white;transform: translateY(-20px);">This all-in-one cooking solution uses an induction system that reacts</p>
+        <a  href="#" >Get It Now</a>
+      </div>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" >
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="transform: translate(100px,-30px); background-color: cornsilk; border-radius: 50%; "></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" style="transform: translateY(-30px); background-color: cornsilk; border-radius: 50%; ""></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!--home end-->
+
+<!------>
+<section class="wrapper">
+  <div class="block-group">
+    <div class="block-item">
+      <a href="#"><i class="fas fa-rocket" style="transform: translate(-40px, 40px);"></i></a>
+      <div class="block-caption">
+        <h5>Free Shipping</h5>
+        <p>Free Shipping On All Order</p>
+      </div>
+    </div>
+
+    <div class="block-item" style="border-left: 1px solid #ebebeb;">
+ <a href="#"><i class="fas fa-sync-alt" style="transform: translateY(40px);"></i></a>
+      <div class="block-caption" style="transform: translateX(40px);">
+        <h5>Money Guarantee</h5>
+        <p>30 Day Money Back Guarantee</p>
+      </div>
+    </div>
+
+    <div class="block-item" style="border-left: 1px solid #ebebeb;">
+      <a href="#"><i class="fas fa-user-friends" style="transform: translateY( 40px);"></i></a>
+      <div class="block-caption" style="transform: translateX(40px);">
+        <h5>Online Support 24/7</h5>
+        <p>Technical Support 24/7</p>
+      </div>
+    </div>
+
+    <div class="block-item" style="border-left: 1px solid #ebebeb;">
+      <a href="#"><i class="far fa-thumbs-up" style="transform: translateY( 40px);"></i></a>
+      <div class="block-caption" style="transform: translateX(40px);">
+        <h5>Member Discount</h5>
+        <p>Upto 40% Discount All Products</p>
+      </div>
+    </div>
+
+    <div class="block-item" style="border-left: 1px solid #ebebeb; ">
+      <a href="#"><i class="far fa-id-badge" style="transform: translateY( 40px);"></i></a>
+      <div class="block-caption" style="transform: translateX(40px);">
+        <h5>Secure Payment</h5>
+        <p>All Cards Accepted</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!------>
+
+<!--best sellers start-->
+<section class="seller">
+  <div class="seller-container">
+    <h4>Best Sellers
+      <hr style="width: 1250px;transform: translateX(55px);">
+    </h4>
+
+    <div class="seller-row">
+      <div class="seller-item">
+       <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/18__29888.1543596799.jpg" width="227" height="227">
+       <h6 style="background-color: #ff7e00; width: 60px;padding: 0 10px; color: white; transform: translate(180px,-200px); border-radius: 2px;">SALE</h6>
+       <h6 style="background: #17a2b8; width: 100px; padding: 0 10px; transform: translate(150px,-170px); color: white;">SOLD OUT</h6>
+       <i class="fas fa-search" ></i>
+       <div class="seller-caption" style="transform: translate(30px,-90px);">
+         <h6 style="transform: translateX(35px); color: #999;font-size: 12px;">COMMON GOOD</h6>
+         <h5 style="font-size: 14px; ">[Sample] Able Brewing System <br> consetetur sadipscing elitr</h5>
+         <p style="transform: translateX(30px); color: #ff7e00; font-weight: bolder;">$150.00
+          <span style="color:  #999 ; text-decoration:line-through;font-weight: normal;">$225.00</span></p>
+       </div>
+      </div>
+
+      <div class="seller-item" style="transform: translateX(50px); border-left: 1px solid #ebebeb;">
+        <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/2-2__15553.1548425078.jpg" width="227" height="227">
+        <i class="fas fa-search" style="transform: translate(-140px,13px);"></i>
+        <div class="seller-caption" style="transform: translate(30px);">
+          <h6 style="transform: translateX(70px); color: #999;font-size: 12px;">OFS</h6>
+          <h5 style="font-size: 14px; ">[Sample] Tiered Wire Basket <br> consetetur sadipscing elitr</h5>
+          <p style="transform: translateX(50px); color: #ff7e00; font-weight: bolder;">$119.95</p>
+        </div>
+       </div>
+
+       <div class="seller-item" style="transform: translateX(50px); border-left: 1px solid #ebebeb;" >
+        <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/26-26__21030.1543533364.jpg" width="227" height="227">
+        <h6 style="background-color: #ff7e00; width: 60px;padding: 0 10px; color: white; transform: translate(180px,-200px); border-radius: 2px;">SALE</h6>
+        
+        <i class="fas fa-search" style="margin-top: 15px;"></i>
+        <div class="seller-caption" style="transform: translate(30px,-80px);">
+          <h6 style="transform: translateX(55px); color: #999;font-size: 12px;">OFS</h6>
+          <h5 style="font-size: 14px; ">[Sample] Able Brewing System <br> consetetur sadipscing elitr</h5>
+          <p style="transform: translateX(30px); color: #ff7e00; font-weight: bolder;">$200.00
+           <span style="color:  #999 ; text-decoration:line-through;font-weight: normal;">$249.00</span></p>
+        </div>
+       </div>
+
+       <div class="seller-item" style="transform: translateX(50px); border-left: 1px solid #ebebeb;">
+        <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/20__03823.1544329763.jpg" width="227" height="227">
+        <i class="fas fa-search" style="transform: translate(-140px,13px);"></i>
+        <div class="seller-caption" style="transform: translate(30px,-3px);">
+          <h6 style="transform: translateX(70px); color: #999;font-size: 12px;">OFS</h6>
+          <h5 style="font-size: 14px; ">[Sample] Chemex Coffeemaker 3 <br> Cup consetetur sadipscing elitr</h5>
+          <p style="transform: translateX(50px); color: #ff7e00; font-weight: bolder;">$49.50</p>
+        </div>
+       </div>
+
+       <div class="seller-item" style="transform: translateX(50px); border-left: 1px solid #ebebeb;">
+        <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/42-42__35386.1543596799.jpg" width="227" height="227">
+        <i class="fas fa-search" style="transform: translate(-140px,13px);"></i>
+        <div class="seller-caption" style="transform: translate(30px,-3px);">
+          <h6 style="transform: translateX(70px); color: #999;font-size: 12px;">SAGAFORM</h6>
+          <h5 style="font-size: 14px; ">[Sample] Fog Linen Chambray Towel <br> - Beige Stripe</h5>
+          <p style="transform: translateX(50px); color: #ff7e00; font-weight: bolder;">$49.00</p>
+        </div>
+       </div>
+    </div>
+
+  </div>
+</section>
+<!--best sellers end-->
+
+<!----------->
+<section class="pictures1">
+  <div class="pictures-container">
+    <div class="picture-item">
+      <div class="img-shadow"></div>
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/banner-1.jpg" width="600" height="200">
+    </div>
+
+    <div class="picture-item" >
+      <div class="img-shadow"></div>
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/banner-2.jpg" width="600" height="200">
+    </div>
+  </div>
+</section>
+<!----------->
+
+<!--electronic and digital start-->
+<section class="digital">
+<div class="digital-container">
+  <div class="digital-nav">
+    <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/cate_1.jpg" width="400px" height="400px">
+    <div class="nav-text">
+     <h4>Electronic & Digital</h4>
+     <ul>
+       <li>Audio Music</li>
+       <li>Phones & Tablets</li>
+       <li>Fashion & Clothing</li>
+       <li>Garden & Kitchen</li>
+       <li>Beauty & Health</li>
+       <li>TV & Video</li>
+       <li style="color: #ff7e00;">View All Categories</li>
+     </ul>
+    </div>
+  </div>
+
+  <div class="digital-group">
+    <div class="digital-item">
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/1__66889.1543533186.jpg" width="227" height="227">
+        <i class="fas fa-search" style="transform: translate(-135px,13px);"></i>
+        <div class="digital-caption" style="transform: translate(30px,-3px);">
+          <h6 style="transform: translateX(70px); color: #999;font-size: 12px;">OFS</h6>
+          <h5 style="font-size: 14px; ">[Sample] Dustpan & Brush sed diam <br> nonumy eirmod</h5>
+          <p style="transform: translateX(50px); color: #ff7e00; font-weight: bolder;">$34.95</p>
+        </div>
+    </div>
+
+    <div class="digital-item" style="transform: translateX(20px); border-left: 1px solid #ebebeb;" >
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/26-26__21030.1543533364.jpg" width="227" height="227">
+      <h6 style="background-color: #ff7e00; width: 60px;padding: 0 10px; color: white; transform: translate(180px,-200px); border-radius: 2px;">SALE</h6>
+      
+      <i class="fas fa-search" style="margin-top: 15px;"></i>
+      <div class="digital-caption" style="transform: translate(30px,-80px);">
+        <h6 style="transform: translateX(65px); color: #999;font-size: 12px;">OFS</h6>
+        <h5 style="font-size: 14px; ">[Sample] Able Brewing System <br> consetetur sadipscing elitr</h5>
+        <p style="transform: translateX(30px); color: #ff7e00; font-weight: bolder;">$200.00
+         <span style="color:  #999 ; text-decoration:line-through;font-weight: normal;">$249.00</span></p>
+      </div>
+     </div>
+      
+     <div class="digital-item" style="transform: translateX(40px); border-left: 1px solid #ebebeb;">
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/2-2__15553.1548425078.jpg" width="227" height="227">
+      <i class="fas fa-search" style="transform: translate(-140px,13px);"></i>
+      <div class="digital-caption" style="transform: translate(30px);">
+        <h6 style="transform: translateX(70px); color: #999;font-size: 12px;">OFS</h6>
+        <h5 style="font-size: 14px; ">[Sample] Tiered Wire Basket <br> consetetur sadipscing elitr</h5>
+        <p style="transform: translateX(50px); color: #ff7e00; font-weight: bolder;">$119.95</p>
+      </div>
+     </div>
+
+     <div class="digital-item" style=" border-left: 1px solid #ebebeb;">
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/13__90172.1544281760.jpg" width="227" height="227">
+      <i class="fas fa-search" style="transform: translate(-140px,13px);"></i>
+      <div class="digital-caption" style="transform: translate(30px,-3px);">
+        <h6 style="transform: translateX(70px); color: #999;font-size: 12px;">SAGAFORM</h6>
+        <h5 style="font-size: 14px; ">[Sample] Oak Cheese Grater <br> consetetur sadipscing elitr</h5>
+        <p style="transform: translateX(50px); color: #ff7e00; font-weight: bolder;">$34.95</p>
+      </div>
+     </div>
+  </div>
+</div>
+</section>
+<!--electronic and digital end-->
+
+<!------->
+<section class="pictures2">
+  <div class="pictures-container">
+    <div class="picture-item">
+      <div class="img-shadow"></div>
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/banner-3.jpg" width="800" height="200">
+    </div>
+
+    <div class="picture-item" >
+      <div class="img-shadow"></div>
+      <img src="../lesson12/img/Razor - Electronics Store Bigcommerce Theme_files/banner-4.jpg" width="400" height="200">
+    </div>
+  </div>
+</section>
+<!------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

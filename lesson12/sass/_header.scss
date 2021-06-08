@@ -1,0 +1,193 @@
+.header-container {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+   overflow: hidden;
+
+    .top-header {
+       
+        nav {
+            border-bottom: 1px solid  #535151dc;
+            height: 50px;
+            overflow: hidden;
+             
+            p {
+                width: 35%;
+                transform: translate(170px,10px);
+                font-size: 14px;
+                color: white;
+
+            &:hover {
+                color: #ff7e00;
+            }
+             }
+            .container-fluid {
+
+                .collapse {
+
+                    .navbar-nav {
+                        
+                        .nav-item {
+
+                            .nav-link {
+                               
+                                color: white;
+
+                                &:hover {
+
+                                    color: #ff7e00;
+                                }
+                               
+                            }
+
+                          .dropdown-menu {
+
+                            li {
+                               
+                                .dropdown-item {
+                                    color: #535151dc;
+
+                                    &:hover {
+                                        color: #ff7e00;
+                                    }
+                                }
+                            }
+                          }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .central-header {
+        height: 80px;
+        background-color: #1f2c46;
+        border-bottom: 1px solid  #535151dc;
+
+        button {
+            background-color: #ff7e00; 
+            color: white;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            border: 1px solid #ff7e00;
+
+            &:hover {
+                background-color: #c57626; 
+                border: 1px solid #ff80008f ;
+            }
+
+        }
+
+        .user-cart {
+
+           .user-part {
+              a {
+
+                i {
+                    color: #ff7e00;
+                    border: 2px solid rgba(255,255,255,.15);
+                    padding: 10px 10px;
+                    border-radius: 50%;
+
+                    &:hover {
+                        color: white;
+                        background-color: #ff7e00;
+                    }
+                }
+                h6 {
+                    color: white;
+                }
+
+                p {
+                    color: #93979c;
+                }
+              }
+           }
+
+           .cart-part {
+            a {
+
+              i {
+                  color: #ff7e00;
+                  border: 2px solid rgba(255,255,255,.15);
+                  padding: 10px 10px;
+                  border-radius: 50%;
+
+                  &:hover {
+                      color: white;
+                      background-color: #ff7e00;
+                  }
+              }
+              h6 {
+                  color: white;
+              }
+
+              p {
+                  color: #93979c;
+              }
+            }
+         }
+        }
+        
+    }
+
+    .bottom-header {
+        height: 60px;
+        background-color: #1f2c46;
+
+
+        .bottom-left {
+            background-color: #ff7e00;
+            width: 300px;
+            padding: 7.5px 10px;
+            transform: translateX(165px);
+            
+            a.nav-link {
+               font-size: 20px;
+                color: white;
+            }
+
+          
+           ul.dropdown-menu {
+               li {
+                    a {
+                         color: #5a5b5c;
+
+                         &:hover  {
+                             color: #ff7e00 ;
+                         }
+                    }
+               }
+           }
+        }
+
+        .bottom-center {
+            nav {
+
+                .container-fluid {
+                       
+                    .collapse {
+
+                        .navbar-nav {
+
+                            a {
+                                margin-left: 20px;
+                                color: white;
+                                text-transform: uppercase;
+                                font-weight: bold;
+
+                                &:hover  {
+                                    color: #ff7e00 ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+       
+}

@@ -1,0 +1,34 @@
+.home {
+    transform: translateY(230px);
+
+    .carousel {
+
+        .carousel-inner {
+
+            .carousel-item {
+
+                img {
+                    width: 1300px;
+                    transform: translateX(160px);
+
+                   
+                }
+                .home-text {
+                    a {
+                       
+                        text-decoration: none; 
+                         padding: 10px 20px;
+                        color: white;
+                        border: 2px solid white;
+                         
+                        &:hover {
+                            border: 2px solid #ff7e00;
+                            background-color: #ff7e00;
+                        }
+                      
+                    }
+                }
+            }
+        }
+    }
+}

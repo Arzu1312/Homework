@@ -1,0 +1,43 @@
+.wrapper {
+    width: 100%;
+    height: 50vh;
+    .block-group {
+        width: 1420px;
+        display: flex;
+        flex-direction: row;
+        transform: translate(89px,150px);
+        border: 1px solid #ebebeb;
+        .block-item {
+            padding: 25px 20px;
+           margin-left: 40px; 
+           
+
+           a {
+
+            i {
+                color: #333;
+                font-size: 28px;
+                
+
+                &:hover {
+                    color: #ff7e00;
+                }
+            }
+
+           }
+
+           h5 {
+               color: #333;
+
+               &:hover {
+                color: #ff7e00;
+               }
+           }
+
+           p {
+               margin-top: 10px;
+               color: #666;
+           }
+        }
+    }
+}

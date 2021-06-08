@@ -1,0 +1,33 @@
+.pictures2 {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+
+    .pictures-container {
+        display: flex;
+        flex-direction: row;
+        transform: translate(120px,20px);
+
+       .picture-item {
+           margin-left: 50px;
+           position: relative;
+           height: 200px;
+           display: inline-block;
+            
+           .img-shadow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            transition: 800ms all;
+
+
+            &:hover {
+                box-shadow: inset 0px -150px 10px 0px rgba(0,0,0,0.55);
+            }
+        }
+       }
+    }
+}
