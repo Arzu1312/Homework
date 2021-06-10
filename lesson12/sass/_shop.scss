@@ -1,0 +1,67 @@
+.shop {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    .shop-container {
+        h4 {
+            transform: translateX(165px);
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 50px;
+                border: 1px solid #ff7e00;
+                transform: translate(5px,-17px);
+            }
+
+           
+        }
+
+        .shop-group {
+            display: flex;
+            flex-direction: row;
+            transform: translateX(100px);
+
+            .shop-item {
+                margin-left: 80px;
+
+                img {
+                   opacity: 1;
+
+                   &:hover {
+                       opacity: 0.8;
+                   }
+                }
+
+                .shop-caption {
+
+                    h3 {
+                        margin-top: 20px;
+                        font-size: 16px;
+                        color: #333;
+
+                        &:hover {
+                            color: #ff7e00;
+                        }
+
+                    }
+
+                    ul {
+                        margin-top: 20px;
+                         transform: translateX(-30px);
+                        li {
+                            list-style: none;
+                            line-height: 30px;
+                            color: #333;
+
+                            &:hover {
+                                color: #ff7e00;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

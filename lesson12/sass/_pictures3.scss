@@ -1,0 +1,19 @@
+.pictures3 {
+    width: 80%;
+    height: 20vh;
+    
+    .pictures-container {
+        display: flex;
+        flex-direction: row;
+        transform: translate(150px, -60px);
+       
+
+        .picture-item {
+            opacity: 0.6;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
