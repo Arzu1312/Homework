@@ -1,0 +1,144 @@
+.advisor {
+    width: 100%;
+    height: 130vh;
+    background-image: url(../8-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+    .title {
+        text-align: center;
+        transform: translateY(120px);
+
+        h2 {
+            font-weight: bold;
+            color: white;
+        }
+ 
+        p {
+            font-size: 56px;
+            color: white;
+            font-weight: 100;
+        }
+    }
+
+    .carousel {
+
+        .carousel-inner {
+            transform: translate(150px,-280px);
+            .carousel-item {
+               
+                .row {
+                   
+                    .col {
+                        width: 404px;
+                        height: 579px;
+                        
+                       
+                        .card {
+                            border: 1px solid #384850 ;
+                            
+                            .wrapper {
+                               
+                                img {
+                                    width: 377.81px;
+                                    height: 367.51px;
+        
+                                 }
+
+                                 .overlay {
+                                     position: absolute;
+                                     top: 0;
+                                     left: 0;
+                                     right: 0;
+                                     bottom: 0;
+                                     height: 367.51px;
+                                     width: 377.81px;
+                                     transition: 0.5s;
+                                     opacity: 0;
+                                     background: #00bcd4cc;
+                                    
+                                     &:hover {
+                                         opacity: 1;
+                                     }
+
+                                 }
+                            }
+
+                            .card-body {
+                                
+                                height: 212px;
+                                background-color:#384850 ;
+                                text-align: center;
+
+                                h5 {
+                                    margin-top: 40px;
+                                    color: #ffb74d;
+                                    font-size: 24px;
+                                    font-family: 'Montserrat', sans-serif;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                   font-weight: 100;
+                                   color: #678785;
+                                }
+
+                                .social {
+                                    margin-top: 30px;
+                                   margin-left: 110px;
+                                    display: flex;
+                                    flex-direction: row;
+
+                                    .in, .skype {
+                                      margin-left: 20px;
+                                    }
+
+                                    .fb {
+                                         
+                                        i {
+                                           padding: 7px 10px;
+                                            border-radius: 50%;
+                                            color: #384850 ;
+                                            background-color: rgba(255, 255, 255, 0.877);
+
+                                          &:hover {
+                                           background-color: #7e6fbe;
+                                             }
+                                        }
+                                    }
+
+                                    .in {
+                                        i {
+                                            padding: 7px 8px;
+                                             border-radius: 50%;
+                                             color: #384850 ;
+                                             background-color: rgba(255, 255, 255, 0.877);
+ 
+                                           &:hover {
+                                            background-color: #428bca;
+                                              }
+                                         }
+                                    }
+
+                                    .skype {
+                                        i {
+                                            padding: 7px 8px;
+                                             border-radius: 50%;
+                                             color: #384850 ;
+                                             background-color: rgba(255, 255, 255, 0.877);
+ 
+                                           &:hover {
+                                            background-color: #00bcd4;
+                                              }
+                                         }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

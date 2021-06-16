@@ -1,0 +1,51 @@
+.token {
+    width: 100%;
+    height: 160vh;
+    background: #f0f4f7;
+    overflow-x: hidden;
+
+    .token-title {
+        margin-top: 120px;
+       text-align: center;
+
+       h2 {
+           font-weight: bold;
+       }
+
+       p {
+           font-size: 56px;
+           color: #191f25;
+           font-weight: 100;
+       }
+    }
+
+    .token-text {
+        text-align: center;
+        width: 830px;
+        transform: translate(350px,60px);
+    }
+}
+
+
+@media screen  and (max-width: 950px) {
+      .token {
+          height: 250vh;
+      }
+
+      .token-title  {
+          transform: translateX(100px); 
+
+      }
+
+    .token-text {
+        
+        p {
+            width: 500px;
+            transform: translateX(-230px);
+        }
+    }
+
+    .col  {
+        transform: translateX(70px);
+    }
+}

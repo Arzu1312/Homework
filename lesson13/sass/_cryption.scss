@@ -1,0 +1,143 @@
+.cryption {
+    width: 100%;
+    height: 165vh;
+    background-image: url(../5-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow-x: hidden;
+
+    .cryption-title {
+        
+        text-align: center;
+        transform: translateY(120px);
+
+        h2 {
+            font-weight: bold;
+            color: white;
+        }
+ 
+        p {
+            font-size: 56px;
+            color: white;
+            font-weight: 100;
+        }
+    }
+
+    .row {
+
+        .col {
+            .card {
+                background-color: rgba(45,62,70,0.77);
+
+                .card-body {
+                    text-align: center;
+                    margin-top: 70px;
+
+
+                    h5 {
+                        margin-top: 70px;
+                        color: white;
+                    }
+
+                    p {
+                        margin-top: 20px;
+                        color: white;
+                        font-weight: 100;
+                        width: 250px;
+                        transform: translateX(40px);
+                    }
+
+                   .read {
+                       margin-top: 60px;
+                    .green {
+                       
+                        text-decoration: none;
+                        color:#4cd2b1 ;
+                        border: 1px solid #4cd2b1;
+                        border-radius: 25px;
+                        padding: 10px 35px;
+                        font-size: 18px;
+                        font-weight: bold;
+
+                        &:hover {
+                               color: white;
+                            background: #4cd2b1;
+                        }
+                    }
+
+
+                    .orange {
+                       
+                        text-decoration: none;
+                        color:#ffb74d ;
+                        border: 1px solid #ffb74d;
+                        border-radius: 25px;
+                        padding: 10px 35px;
+                        font-size: 18px;
+                        font-weight: bold;
+
+                        &:hover {
+                               color: white;
+                            background: #ffb74d;
+                        }
+                    }
+
+                    .purple {
+                       
+                        text-decoration: none;
+                        color: #7e71c1;
+                        border: 1px solid #7e71c1 ;
+                        border-radius: 25px;
+                        padding: 10px 35px;
+                        font-size: 18px;
+                        font-weight: bold;
+
+                        &:hover {
+                               color: white;
+                            background:#7e71c1 ;
+                        }
+                    }
+                   }
+                }
+            }
+        }
+    }
+
+    .counter {
+        display: flex;
+        flex-direction: row;
+        transform: translate(240px,300px);
+
+        .counter-item {
+            padding: 20px 80px;
+
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                font-weight: bolder;
+            }
+
+            p {
+                margin-top: 30px;
+                font-size: 19px;
+                font-weight: bolder;
+                color: white;
+                text-align: center;
+            }
+
+        }
+    }
+    
+}
+
+
+@media screen  and (max-width: 950px) {
+    .cryption {
+        height: 330vh;
+    }
+
+    .cryption-title {
+        margin-left: 230px;
+    }
+}

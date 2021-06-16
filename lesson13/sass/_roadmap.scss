@@ -1,0 +1,55 @@
+.roadmap {
+    width: 100%;
+    height: 260vh;
+    background-image: url(../6-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    overflow: hidden;
+
+    .title {
+        text-align: center;
+        transform: translateY(120px);
+
+        h2 {
+            font-weight: bold;
+            color: white;
+        }
+ 
+        p {
+            font-size: 56px;
+            color: white;
+            font-weight: 100;
+        }
+    }
+
+    .container {
+        .box-item {
+
+                
+                 i {
+
+                  
+                    border: 3px solid rgba(45,62,70,0.77) ;
+                    background-color: rgba(45,62,70,0.77) ;
+                    padding: 50px 60px;
+                    border-radius: 50%;
+                    font-size: 60px;
+                    margin-right: 20px;
+                    transform: translate(47px,135px);
+
+                    &:hover {
+                        color: white !important;
+                        background: rgba(167, 167, 167, 0.26);
+                        
+                    }
+                       
+                 }
+            .line {
+                height: 70px;
+               transform: translate(637px,87px);
+                border-left: 5px double rgba(45,62,70,0.77) ;
+            }
+        }
+    }
+}
