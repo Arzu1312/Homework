@@ -1,0 +1,42 @@
+.connect {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../1-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+    .text {
+        margin-top: 100px;
+        text-align: center;
+        h1 {
+            color: white;
+            font-weight: 300;
+            font-size: 50px;
+        }
+
+        p {
+            transform: translateX(400px);
+            margin-top: 60px;
+            width: 710px;
+            font-size: 15px;
+            color: white;
+        }
+    }
+
+    .social {
+        transform: translate(430px,70px);
+
+        i {
+            color: #21323e;
+          font-size: 22px;
+            padding: 15px 15px;
+            margin-left: 20px;
+
+            &:hover {
+                background: #0abfd6 !important;
+            }
+        }
+    }
+
+}

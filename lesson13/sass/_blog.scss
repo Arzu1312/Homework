@@ -1,0 +1,110 @@
+.news {
+    width: 100%;
+    height: 130vh;
+    overflow-x: hidden;
+
+    .title {
+        text-align: center;
+        transform: translateY(120px);
+
+        h2 {
+            font-weight: bold;
+            color: black;
+        }
+ 
+        p {
+            font-size: 56px;
+            color: #191f25;
+            font-weight: 100;
+        }
+    }
+
+   .container {
+       margin-top: 200px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap:wrap ;
+
+      .box-item {
+          margin-left: 70px;
+         width: 500px;
+         height: 300px;
+         transform: translateX(50px);
+        .image {
+
+            img {
+                width: 183px;
+                height: 148px;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 148px;
+                width: 183px;
+                transition: 0.5s;
+                opacity: 0;
+                background: #00bcd4cc;
+                
+                 &:hover {
+                     opacity: 1;
+                 }
+
+                 
+            }
+
+           
+        }
+
+          .comment {
+              display: flex;
+              flex-direction: row;
+          }
+
+          .text, .comment {
+              width: 352px;
+              transform: translate(210px,-155px);
+          }
+
+          .text {
+              h4 {
+                  transition: 0.5s;
+                font-family: 'Montserrat', sans-serif;
+
+                &:hover {
+                    color:#00bcd4 ;
+                }
+              }
+
+              p {
+                  color: #697671;
+                  font-size: 15px;
+              }
+
+          }
+            
+          .comment {
+              h5 {
+                  font-size: 15px;
+                  color: #00bcd4;
+              }
+
+             .ch {
+                 display: flex;
+                 flex-direction: row;
+                
+                 transform: translateX(120px);
+
+                 p {
+                    margin-left: 20px;
+                 }
+             }
+          }
+
+       }
+   }
+
+}

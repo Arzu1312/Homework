@@ -47,16 +47,16 @@
                                  }
 
                                  .overlay {
-                                     position: absolute;
-                                     top: 0;
-                                     left: 0;
-                                     right: 0;
-                                     bottom: 0;
-                                     height: 367.51px;
-                                     width: 377.81px;
-                                     transition: 0.5s;
-                                     opacity: 0;
-                                     background: #00bcd4cc;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    height: 367.51px;
+                                    width: 377.81px;
+                                    transition: 0.5s;
+                                    opacity: 0;
+                                    background: #00bcd4cc;
                                     
                                      &:hover {
                                          opacity: 1;
