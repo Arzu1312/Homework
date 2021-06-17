@@ -659,11 +659,19 @@
 }
 
 .lightblue .container .button form button {
+  border: none;
   background-color: #429ae2;
-  padding: 5px 50px;
+  padding: 8px 50px;
   border-radius: 30px;
-  -webkit-transform: translate(300px, -50px);
-          transform: translate(300px, -50px);
+  -webkit-transform: translate(310px, -56px);
+          transform: translate(310px, -56px);
+  font-weight: bolder !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lightblue .container .button form button:hover {
+  background-color: #00d58ac0;
 }
 
 .news {
