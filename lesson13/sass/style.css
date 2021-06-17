@@ -599,6 +599,8 @@
   font-size: 22px;
   padding: 15px 15px;
   margin-left: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .connect .social i:hover {
