@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    position: relative;
+    z-index: 20;
+    
+    nav {
+        margin-left: 200px;
+        animation-duration: 5s;
+        .container-fluid {
+            
+            
+            .collapse {
+             
+                .navbar-nav {
+                    margin-left: 300px;
+                    li {
+                        width: 100px;
+                        font-size: 16px;
+                        font-weight: bolder;
+                        
+                        a {
+                            color: #f5f5f5;
+                            transition: .3s;
+                            &:hover {
+                                transition: .3s;
+                                color: #dd1e4b;
+                           }
+                        }
+                        
+                    }
+
+                    .icon {
+                        width: 50px;
+                    }
+
+                    .button {
+
+                        width: 150px;
+
+                         a {
+                             font-weight: 400;
+                            padding: 10px 25px;
+                            color: white;
+                            border-radius: 2px ;
+                            background-color: #dd1e4b;
+                            transition: 0.5s;
+                            &:hover {
+                                transition: 0.5s;
+                                color: white;
+                                background: radial-gradient(circle, rgba(224,4,11,1) 15%, rgba(221,30,75,1) 65%);
+                                
+                            }
+                         }
+                    }
+                }
+                
+               
+            }
+        }
+    }
+
+}
