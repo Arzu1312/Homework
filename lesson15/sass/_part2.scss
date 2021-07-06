@@ -1,0 +1,139 @@
+.part2 {
+    width: 100%;
+    height: 70vh;
+   overflow-x: hidden;    
+
+    .container {
+        transform: translateX(-40px);
+
+       .carousel-inner{
+
+        .carousel-item {
+
+            .card-group {
+                width: 1050px;
+                .card {
+                    margin-right: 30px;
+                    width: 286px !important;
+                    height: 385px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 2px 2px #aaabad3d;
+
+                    img {
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        width: 264px;
+                        height: 148px;
+                    }
+                  .overlay {
+                    width: 264px;
+                    height: 148px;
+                    background-image: linear-gradient(transparent,rgba(51,51,51,.3) 90%);
+                    transform: translate(20px,-143px);
+
+                    .review {
+                        color: #fff;
+                        width: 75px;
+                        background: #fdcc0d;
+                        padding: 0 15px 0 10px;
+                        border-radius: 20px;
+                        transform: translateY(5px);
+                     }
+
+                     .bestseller {
+                        padding: 0 10px;
+                        width: 85px;
+                        background: #fa8305;
+                        border: none;
+                        color: #fff;
+                        transform: translate(178px,-18px);
+                        h6 {
+                            font-size: 12px;
+                        }
+                     }
+                     p {
+                        padding: 14px 15px;
+                        width: 50px;
+                        border-radius: 100%;
+                        transform: translate(100px,-10px);
+                        color: white;
+                       opacity: 1;
+                        background: rgba(51,51,51,.8);
+                        
+
+                        i {
+                            margin-left: 5px;
+                        }
+                     }
+                     .hour {
+                         width: 90px;
+                        color: #fff;
+                        background: rgba(51,51,51,.8);
+                        padding: 3px 10px;
+                          border-radius: 20px;
+                          transform: translate(168px,-10px);
+                     } 
+                  }
+
+                  .card-body {
+                      transform: translateY(-20px);
+                      .dropdown {
+
+                        ul {
+                           transform: translate(90px,5px) !important;
+                           li {
+                              a {
+                                color: #686f7a;
+                                transition: 0.3s;
+
+                                &:hover {
+                                    transition: 0.2s;
+                                 color: #333!important;
+                                 background-color: #ffecec;
+                                }
+                              }
+                           }
+                        }
+                      }
+
+                      .top {
+                          margin-left: 3px;
+                          p {
+                              color: #686f7a;
+                              font-size: 12px;
+                              transform: translate(-20px,-35px);
+
+                          }
+
+                        h6 {
+                            font-weight: 400;
+                            color: #686f7a;
+                            font-size: 12px;
+                            transform: translate(55px,-67px);
+                        }
+                      }
+
+                      .author {
+
+                        transform: translate(3px,-170px);
+
+                        h6 {
+                            color: #686f7a;
+                            a {
+                                color: #212529;
+                            
+                            }
+                        }
+
+                        h5 {
+                            transform: translate(240px,-30px);
+                        }
+                      }
+                   }
+
+                }
+            }
+        }
+       } 
+    }
+}

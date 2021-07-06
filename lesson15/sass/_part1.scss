@@ -1,0 +1,97 @@
+.part1 {
+  width: 100%;
+  height: 50vh;
+  overflow-x:hidden ;
+  
+
+  .container {
+   
+    transform: translate(-40px,100px);
+
+    .carousel-item {
+
+      .card-group {
+        width: 80%;
+        
+          .card {
+              width: 150px;
+              height: 150px;
+              border-radius: 10px;
+             background: #dcd7dc;
+             background-repeat: no-repeat;
+              margin-right: 30px;
+
+              .item {
+               width: 120px;
+               height: 135px;
+               margin-top: 5px;
+                padding: 5px 30px;
+                border-radius: 5px;
+                background: #e5e0e5;
+              transform: translateX(12px);
+               
+               a {
+                text-decoration: none;
+                img {
+                  width: 60px;
+                  height: 60px;
+                   border-radius: 50%;
+                   border: 1px solid #fff;
+                  
+                  
+                }
+
+                h5 {
+                  transform: translateY(10px);
+                  width: 121px;
+                  font-size: 14px;
+                  color: #333;
+                 
+                }
+
+                p {
+                  transform: translate(15px,7px);
+                  color: #686f7a;
+                }
+
+                .dot {
+                  width: 6px;
+                   height: 6px;
+                  background: #ed2a26;
+                  border-radius: 50%;
+                  transform: translate(38px,-30px);
+                }
+               }
+              }
+          }
+        
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .part1 {
+   height: 100vh;
+ }
+
+ .title {
+   h5 {
+     margin-left: 170px;
+   }
+
+   
+ }
+
+ .card-group {
+   transform: translateX(150px);
+  display: flex;
+  flex-direction: column;
+  
+
+   
+ }
+
+ 
+}
+
