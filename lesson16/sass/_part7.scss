@@ -69,3 +69,31 @@
             }
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .part7 {
+        height: 180vh;
+    }
+
+    .container {
+       
+        .input-group {
+            transform: translate(-80px,30px);
+    
+             .name, .phone, .mail {
+                
+               input {
+                width: 280.5px;
+                height: 50px;
+                padding: 10px 15px;
+                margin-left: 30px;
+                border: 1px solid rgba(0, 0, 0, 0.25);
+                border-radius: 2px;
+    
+               }
+                  
+             }
+            }
+    }
+   
+}

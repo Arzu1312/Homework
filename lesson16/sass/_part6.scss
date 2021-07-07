@@ -15,3 +15,26 @@
     background-color: red;
     }
 }
+
+@media only screen and (max-width: 500px) {
+   .part6 {
+    height: 60vh;
+        
+    .container {
+        .carousel {
+
+            .carousel-inner {
+        
+            .carousel-item {
+              transform: translateX(-10px);
+        
+                 img {
+                   width: 70px;
+                   height: 80px;
+                 }
+            }
+          }
+          }
+    }
+   }
+}
