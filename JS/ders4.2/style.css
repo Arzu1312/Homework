@@ -1,0 +1,145 @@
+body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
+  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  font-family: 'Otomanopee One', sans-serif;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+body .container {
+  color: #fbff00;
+}
+
+body .container .calendar {
+  width: 40rem;
+  height: 42rem;
+  background-color: aquamarine;
+  -webkit-box-shadow: 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+body .container .calendar .month {
+  width: 90.1%;
+  height: 12rem;
+  background: url(img/pexels-olya-kobruseva-6487202.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+body .container .calendar .month i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+body .container .calendar .month h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+body .container .calendar .month p {
+  font-size: 1.6rem;
+}
+
+body .container .calendar .weekdays {
+  width: 100%;
+  height: 5rem;
+  padding: 0 0.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .calendar .weekdays div {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: navy;
+  letter-spacing: 0.1rem;
+  width: calc(38.2rem / 7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+body .container .calendar .days {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0.2rem;
+}
+
+body .container .calendar .days div {
+  font-size: 1.3rem;
+  color: #f64f59;
+  margin: 0.3rem;
+  width: calc(34.2rem / 7);
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .container .calendar .days div:hover:not(.today) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+body .container .calendar .days .prev-date,
+body .container .calendar .days .next-date {
+  opacity: 0.5;
+}
+
+body .container .calendar .days .today {
+  border: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */
