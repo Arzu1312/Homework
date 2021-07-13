@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(img/istockphoto-1191719793-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+
+    .conatiner {
+        position: relative; 
+        width: 600px;
+        display: flex;
+        justify-content: center;
+       bottom: 35px;
+        left: 500px;
+       
+        .card {
+            width: 90%;
+            padding: 20px;
+            margin: 50px 50px;
+            background: rgba(103, 105, 105, 0.534);
+            box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            color: gold;
+
+            .card-title {
+                display: flex;
+                align-items: center;
+                padding: 10px 0;
+                border-bottom: 3px solid black;
+
+                h1 {
+                    transform: translateX(150px);
+                }
+
+                i {
+                    color: white;
+                    margin-left: auto;
+                }
+
+            }
+
+              .card-body {
+                  padding: 10px 0px;
+                  height: 500px;
+                
+
+                  .todo-list {
+                      list-style: none;
+
+                      .todo-item {
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-between;
+                          align-items: center;
+                          margin-left: -40px;
+                          margin-bottom: 10px;
+                          padding: 10px;
+                          background: rgba(255,255,255,.1);
+                          border-radius: 5px;
+                          
+                          li {
+                              flex-grow: 1;
+                              font-size: 16px;
+                              font-weight: bold;
+                              cursor: default;
+
+                          }
+
+                          i {
+                              color: white;
+                              font-size: 18px;
+                              margin: 0 5px;
+                              cursor: pointer;
+                          }
+                        }
+
+                        .todo {
+                            display: flex;
+                        }
+
+                        .done {
+                            background: rgba(0,0,0,.5);
+                        }
+                    }
+                } 
+
+                .card-footer {
+                    padding: 10px 0;
+                    display: flex;
+
+                    input {
+                      width: 100%;
+                      font-size: 16px;
+                      line-height: 30px;
+                      outline: 0;
+                      padding: 5px 10px;
+                      border: 0;
+                      background: rgba(255,255,255,.1);
+                      border-radius: 5px 0 0 5px;
+
+                      &::placeholder {
+                          color: white;
+                      }
+                    }
+
+                    button {
+                       background: springgreen;
+                       color: seashell;
+                       font-size: 16px;
+                       border: 0;
+                       width: 50px;
+                       border-radius: 0 5px 5px 0;
+                       transition: 0.4s;
+
+
+                       &:hover {
+                           background: seagreen;
+                       }
+                    }
+                }
+        }
+    }
+}
+
