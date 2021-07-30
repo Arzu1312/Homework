@@ -1,0 +1,104 @@
+.team-section {
+    width: 100%;
+    height: 120vh;
+    overflow-x: hidden;
+
+    .container {
+
+        .title {
+            font-family: "Rajdhani", sans-serif;
+            margin-top: 140px;
+           text-align: center;
+           
+
+           h6 {
+            font-weight: 700;
+            color: #ffaa12;
+           }
+
+           h2 {
+            font-weight: 700;
+            color: #1d2122;
+            font-size: 60px;
+           }
+        }
+
+        .row {
+            margin-top: 40px;
+
+            .col {
+                width: 400px;
+                height: 525px;
+               
+               
+                .card {
+                    &:hover {
+                 
+                        img {
+                            transform: scale(1.1);
+                           
+                        }
+                    }  
+                    figure {
+                        overflow: hidden;
+                        
+       
+                    }
+       
+                    img {
+                        width: 391px;
+                        transform: scale(1);
+                        transition: 0.3s ease-in-out;
+                        cursor: pointer;
+       
+                    }
+
+                    .card-body {
+                        text-align: center;
+                        font-family: "Rajdhani", sans-serif;
+                        h6 {
+                            font-weight: 700;
+                            color: #ffaa12;
+                            letter-spacing: 2px;
+                        }
+
+                        h2 {
+                            color: #1d2122;
+                            font-size: 30px;
+                            font-weight: 700;
+                        }
+                        ul {
+                          display: flex;
+                          flex-direction: row;
+                          align-items: center;
+                          justify-content: center;
+                          list-style: none;
+                          margin-top: 40px;
+                          margin-left: -50px;
+
+                          li {
+                              margin-left: 20px;
+                              a {
+                                  width: 50px;
+                                  height: 60px;
+                                  text-align: center;
+                                  border: 2px solid #f0f2f3;
+                                  color: #1d2122;
+                                  font-size: 16px;
+                                  padding:8px 14px;
+                                  transition: all 0.4s ease-out 0s;
+
+                                  &:hover {
+                                    transition: all 0.4s ease-out 0s;
+                                      background-color: #ffaa12;
+                                  }
+                              }
+                          }
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

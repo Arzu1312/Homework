@@ -1,0 +1,110 @@
+.feature-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+
+    .container {
+        
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .text {
+                font-family: "Rajdhani", sans-serif;
+                .title {
+                    h6 {
+                        color: #ffaa12;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                    }
+
+                    h2 {
+                        width: 540px;
+                        font-size: 60px;
+                        color: #1d2122;
+                        font-weight: 700;
+
+                        span {
+                            color: transparent;
+                            -webkit-text-stroke: 1px #1d2122;
+                             opacity: 0.2;
+                        }
+                    }
+
+                    p {
+                        width: 540px;
+                        margin-top: 20px;
+                        font-size: 24px;
+                        color: #1d2122;
+                        font-weight: 700;
+                    }
+                }
+
+                ul {
+                   width: 570px;
+                   list-style: none;
+                    li {
+                          .icon {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              width: 80px;
+                              height: 80px;
+                              transform: translate(-30px,30px);
+
+                             
+                          }
+
+                          .caption {
+                              width: 470px;
+                              transform: translate(100px,-40px);
+                              color: #1d2122;
+
+                              h5 {
+                                  font-weight: 700;
+                                  font-size: 20px;
+                              }
+
+
+                              p {
+                                  width: 430px;
+                                  margin-top: 20px;
+                                  font-size: 19px;
+                              }
+                          }
+                    }
+                }
+            }
+
+            .image {
+                
+                .image-1 {
+                    transform: translate(780px,-750px);
+                }
+
+                .image-2 {
+                    transform: translate(700px,-800px);
+                    img {
+                        border: 10px solid white;
+                    }
+                }
+            }
+        }
+    }
+
+    &::after {
+        position: absolute;
+    height: calc(100% + 100px);
+    width: 38.5%;
+    content: "";
+    bottom: 0;
+    right: 0;
+    background-color: #ffaa17;
+    z-index: -1;
+    
+    }
+}

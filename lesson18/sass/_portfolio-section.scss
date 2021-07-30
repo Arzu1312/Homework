@@ -1,0 +1,172 @@
+.portfolio-section {
+    width: 100%;
+    height: 130vh;
+    overflow: hidden;
+
+    .container {
+
+        .title {
+            display: flex;
+            flex-direction: row;
+           margin-top: 30px;
+           font-family: "Rajdhani", sans-serif;
+            .text {
+                
+                h6 {
+                    color: #ffaa12;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+
+                h2 {
+                    width: 630px;
+                    font-size: 60px;
+                    color: #1d2122;
+                    font-weight: 700;
+
+                }
+            }
+
+            .list {
+                margin-top: 20px;
+                margin-left: -200px;
+                .portfolio {
+                    ul {
+                        list-style: none;
+                        display: flex;
+                        flex-direction: row;
+
+                        li {
+                            position: relative;
+                            padding: 12px 22px;
+                                height: 50px;
+                            margin-left: 60px;
+                            color: #1d2122;
+                            font-weight: 700;
+                            font-size: 16px;
+                            transition: .4s;
+                            cursor: pointer;
+
+                            &:hover {
+                            transition: .4s;
+                                background-color: #ffaa12;
+                                
+                            }
+                        }
+
+                        .before {
+                            
+                            &::before {
+                                content: '--';
+                            position: absolute;
+                            color: #ffaa12;
+                            left: -25%;
+                            }
+                        } 
+
+                    }
+                }
+            }
+        }
+
+        .portfolio-items {
+            margin-top: 60px;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            .portfolio-item {
+                position: relative;
+
+                    &:hover {
+                 
+                        img {
+                            transform: scale(1.1);
+                           
+                        }
+
+                        .caption {
+                            opacity: 1;
+                            transition: 0.4s;
+
+
+                        }
+                    }
+                     figure {
+                         overflow: hidden;
+                         margin: 0 10px;
+        
+                     }
+        
+                     img {
+        
+                         transform: scale(1);
+                         transition: 0.3s ease-in-out;
+                         cursor: pointer;
+        
+                     }
+   
+                 }
+
+                 .caption {
+                    position: absolute;
+                    left: 20px;
+                    right: 20px;
+                    background-color: #fff;
+                    z-index: 2;
+                    padding: 15px;
+                    top: 193px;
+                    font-family: "Rajdhani", sans-serif;
+                        cursor: pointer;
+                        opacity: 0;
+                        transition: 0.4s;
+                       
+                     
+                   
+                    h6 {
+                        font-size: 14px;
+                        letter-spacing: 2px;
+                        color: #ffaa12;
+                        font-weight: 700;
+                    }
+
+                    h5 {
+                        font-weight: 700;
+                        color: #1d2122;
+                        transition: 0.4s;
+
+                        &:hover {
+                            transition: 0.4s;
+                            color: #ffaa12;
+                        }
+                    }
+                 
+            }
+
+        }
+
+        .btn {
+            transform: translate(500px,-200px);
+            a {
+                width: 80px;
+                height: 100px;
+                text-decoration: none;
+                background-color: #fff;
+                font-family: "Rajdhani", sans-serif;
+                font-weight: 700;
+                padding: 15px 45px;
+                color: #1d2122;
+                transition: .4s;
+               
+               
+                &:hover {
+                    background-color: #1d2122;
+                    color: white;
+                transition: .4s;
+
+                }
+            }
+        }
+    }
+}

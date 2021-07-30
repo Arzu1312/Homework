@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rajdhani:wght@500;600;700&display=swap');
+
+.about-section {
+    width: 100%;
+    height: 130vh;
+    overflow: hidden;
+
+    .container {
+
+        margin-top: 140px;
+        .row {
+            display: flex;
+            flex-direction: row;
+
+            .image {
+
+               img {
+                   width: 470px;
+                   height: 650px;
+               }
+
+               .experience {
+                   
+                   width: 180px;
+                   height: 180px;
+                   background: #ffaa12;
+                   border: 10px solid #fff;
+                   transform: translate(375px,-410px);
+                   text-align: center;
+                   color: #1d2122;
+                   font-family: 'Rajdhani', sans-serif;
+                   font-weight: 700;
+
+                   h1 {
+                       margin-left: 10px;
+                       font-size: 80px;
+                       font-family: 'Rajdhani', sans-serif;
+                       color: #1d2122;
+                       font-weight: 700;
+                       transform: translateY(20px);
+
+                       i {
+                           font-size: 10px;
+                          transform: translateX(-15px);
+                       }
+                   }
+               }
+            }
+
+            .about-text {
+                .text {
+                    width: 600px;
+                    transform: translate(630px,-780px);
+                    font-family: 'Rajdhani', sans-serif;
+    
+                    .title {
+                        h6 {
+                            color: #ffaa12;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                        }
+    
+                        h2 {
+                            width: 540px;
+                            font-size: 60px;
+                            color: #1d2122;
+                            font-weight: 700;
+    
+                            span {
+                                color: transparent;
+                                -webkit-text-stroke: 1px #1d2122;
+                                 opacity: 0.2;
+                            }
+                        }
+    
+                        p {
+                            width: 540px;
+                            margin-top: 20px;
+                            font-size: 24px;
+                            color: #1d2122;
+                            font-weight: 700;
+                        }
+                    }
+    
+                    p {
+                        width: 540px;
+                        font-size: 19px;
+                        color: #1d2122;
+                        margin-top: 20px;
+                    }
+    
+                    ul {
+                        transform: translateX(-30px);
+                        margin-top: 40px;
+                       list-style: none;
+                        font-size: 16px;
+                        font-weight: 700;
+                      
+                       
+                        li {
+                         color: #1d2122;
+                         
+                            span {
+                              color: #ffaa12;
+                            }
+                        }
+                    }
+    
+    
+                    .learn {
+                         left: 10%;
+                         transform: translateY(-60px);
+                        a {
+                            text-decoration: none;
+                            border: 2px solid #f1f1f1;
+                            background-color: transparent;
+                            font-family: "Rajdhani", sans-serif;
+                            color: #1d2122;
+                            font-weight: 700;
+                              font-size: 16px;
+                              padding: 20px 45px;
+                              transition: .4s;
+    
+    
+                              i {
+                                  margin-left: 10px;
+                                  font-size: 8px;
+                                  font-weight: bolder;
+                                  transform: translateY(-2px);
+                              }
+    
+                              &:hover {
+                                  border: 1px solid #1d2122;
+                                  background: #1d2122;
+                                  color: white;
+                                  transition: .4s;
+                              }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
