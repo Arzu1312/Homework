@@ -23,6 +23,7 @@
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "babel-loader": "^8.2.2",
     "bootstrap": "^5.1.0",
     "file-loader": "^6.2.0",

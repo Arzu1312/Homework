@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/scss/bootstrap.scss';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './sass/style.scss';
 import logo from './logo.png';
 import img1 from './img-1.png';
@@ -30,23 +33,64 @@ import profile3 from './profile-img-3.jpg';
 
 
 
-
-
-
-
-
 var root = document.getElementById("root");
 
+
+
 var temp = (
+
+
     <div>
-    <div className="header">
+        <div className="header">
+        <nav className="navbar navbar-expand-lg" >
+        <div className="container">
+           <img src={logo}/>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item dropdown">
+                <a className="nav-link  active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Demos
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a className="dropdown-item" href="#">Home 1</a></li>
+                  <li><a className="dropdown-item" href="#">Home 2</a></li>
+                  <li><a className="dropdown-item" href="#">Home 3</a></li>
+                </ul>
+              </li>
+               <li className="nav-item">
+                <a className="nav-link" href="#">Feature</a>
+              </li> <li className="nav-item">
+                <a className="nav-link" href="#"> Overview</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Working Step</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link " href="#">Pricing</a>
+              </li>
+
+               <div className="buton" >
+      <a href="#" >Get it now</a>
+    </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        </div>
+    {/* <div className="header">
     <nav className="navbar navbar-expand-lg" style={{"height":"85px"}}>
   <div className="container">
   <img src={logo}/>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active  dropdown-toggle" aria-aria-current="page" href="#">Demos</a>
+        <li className="nav-item dropdown">
+          <a className="nav-link active  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Demos
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a className="dropdown-item" href="#">Action</a></li>
+            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Feature</a>
@@ -71,7 +115,7 @@ var temp = (
     </div>
   </div>
 </nav>
-    </div>
+    </div> */}
 
 <div className="hero"  >
   <div className="hero-content">
@@ -96,7 +140,7 @@ var temp = (
 
 <section className="part2">
 <div className="container">
-<div className="title">
+<div className="title" data-aos="fade-up" data-aos-duration="2s">
     <h4>Join millions getting more mindful with Headspace</h4>
   </div>
 <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -623,7 +667,8 @@ var temp = (
     </div>
 
     <div className="testimonial-box">
-  <div className="card-box">
+
+    <div className="card-box">
     <div className="card">
       <img src={quote} />
       <div className="card-body">
@@ -686,6 +731,7 @@ var temp = (
       </div>
     </div>
   </div>
+  
     </div>
   </div>
 </section>
