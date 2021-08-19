@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
+
+.wrapper {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 720px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    
+
+}
+
+.wrapper::before {
+    
+    content: "";
+    display: block;
+    position: fixed;
+    width: 300%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translateX(-60%) skewY(10deg);
+    background-color: #f6c90e;
+    z-index: -1;
+    animation: wave 8s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+    0% {
+      transform: translateX(-60%) skew(0deg, 10deg);
+    }
+
+    100% {
+      transform: translateX(-30%) skew(30deg, -4deg);
+    }
+  }
+
+
+/* item */
+
+.screen {
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+    width: 340px;
+    height: 650px;
+    border-radius: 30px;
+    overflow-y: scroll;
+    padding: 5px 28px;
+    margin-left: 30px;
+    box-shadow: 0 3.2px 2.2px rgb(0 0 0 / 2%), 0 7px 5.4px rgb(0 0 0 / 3%), 0 12.1px 10.1px rgb(0 0 0 / 4%), 0 19.8px 18.1px rgb(0 0 0 / 4%), 0 34.7px 33.8px rgb(0 0 0 / 5%), 0 81px 81px rgb(0 0 0 / 7%);
+}
+
+.screen::before {
+
+    content: '';
+    position: absolute;
+    background: #f6c90e;
+    width: 300px;
+    height: 300px;
+    border-radius:100% ;
+    top: -20%;
+    left: -50%;
+}
+
+.screen::-webkit-scrollbar {
+    display: none;
+  }
+
+.app-bar {
+    position: relative;
+    padding: 12px 0;
+
+   
+}
+.app-bar img {
+    width: 50px;
+    height: 26px;
+}
+
+.title {
+    position: relative;
+    margin: 20px 0;
+   
+}
+
+.title h1 {
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #303841;
+}
+
+.shop-item {
+    position: relative;
+}
+
+.item-block:first-child {
+    padding-top: 0;
+}
+
+.image-area {
+    background-color: rgb(225, 231, 237);
+    width: 284px;
+    height: 380px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-area img {
+    width: 284px;
+    height: 284px;
+    transform: rotate(-24deg);
+    filter: drop-shadow(0 30px 20px rgba(0, 0, 0, 0.2));
+    margin-left: -16px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: #303841;
+    margin: 26px 0 20px;
+    line-height: 1.5;
+    
+}
+
+.description {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+.bottom-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-button {
+    position: relative;
+    cursor: pointer;
+  background: #f6c90e;
+  font-weight: bold;
+  font-size: bold;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  border-radius: 100px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    transition: box-shadow 0.4s, background-color 0.2s;
+
+
+}
+
+.cart-button p {
+    text-align: center;
+  
+}
+
+.cart-button:hover {
+    background-color: #f8d43f;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+/*  product */
+
+
+
+.cart-items {
+    position: relative;
+
+}
+
+.cart-item {
+    display: flex;
+    padding: 20px 0;
+}
+
+.cart-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background: #eee;
+    margin-right: 34px;
+}
+
+.image-wrapper img {
+    width: 126px;
+    height: 126px;
+    transform: rotate(-28deg) translateY(-40px);
+    filter: drop-shadow(0 30px 20px rgba(0, 0, 0, 0.2));
+}
+
+.right .name {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+}
+
+.count .button {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.count .button:hover {
+    background-color: #ddd;
+}
+
+.number {
+    font-size: 14px;
+    margin: 0 14px;
+    width: 20px;
+    text-align: center;
+}
