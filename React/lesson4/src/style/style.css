@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Supermercado+One&display=swap');
+
+.App {
+    width: 100%;
+  height: 130vh;
+  background-image: url('../wallpaper1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.nav-item {
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    transition: .3s;
+   color: orange;
+}
+
+.btn {
+    margin-right: 30px;
+}
+
+.title {
+    margin-left: 800px;
+    margin-top: 200px;
+    width: 500px;
+}
+.title h1 {
+    color: #933B15;
+    font-family: 'Supermercado One', cursive;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    margin-top: 130px;
+    animation: myanimate infinite 5s ;
+}
+
+.item-group {
+    margin-top: 250px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.item {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #686767;
+}
+
+.purple {
+    
+    padding: 10px;
+    background-color: #ad97b78f
+}
+
+.orange {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fa8d218f;
+}
+
+.element {
+    margin-left: 20px;
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.text h6 {
+    width: 120px;
+    font-family: 'Allerta', sans-serif;
+    transition: .3s;
+}
+
+.text h6:hover {
+    transition: .3s;
+    color: blue;
+}
+
+
+@keyframes myanimate {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-20px);
+    }
+}
