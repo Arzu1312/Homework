@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+.App {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-box {
+    padding-top: 20px;
+    width: 350px;
+    height: 750px;
+    background: radial-gradient(circle, rgb(31, 36, 44) 100%, rgb(49, 60, 68) 100%);
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.back, .menu-icon {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(38, 39, 41) 100%, rgba(32,35,41,1) 100%);
+    box-shadow: 1px 1px 1px #797C7F;
+}
+
+.title h5 {
+    font-family: 'Russo One', sans-serif;
+    color: #999999;
+}
+
+.artist {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #666666;
+}
+
+.image {
+    padding-top: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 267px;
+    height: 267px;
+}
+
+.word {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+}
+
+.word h5 {
+    font-size: 13px;
+    color: #555555;
+}
+
+.word h3 {
+    font-size: 16px;
+    color: #E34715;
+    filter: blur(0.9px);
+}
+
+.word h4 {
+    font-size: 14px;
+    color: #666666;
+}
+
+.word h6 {
+    font-size: 11px;
+    color: #333333;
+}
+
+.time {
+    font-family: 'Russo One', sans-serif;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time span {
+    font-size: 10px;
+    color: #666666;
+}
+
+.player-buton {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-play, .right-play {
+  
+    padding:  14px;
+    border-radius: 50%;
+    background: rgb(26, 26, 27);
+    box-shadow: 1px 1px 1px #D3450A;
+}
+
+.play-icon {
+    padding: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(236,84,14,1) 100%, rgba(214,54,31,1) 100%);
+}
+
+.slideup {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #2f32369f;
+     font-size: 11px;
+}
+
+
+
+/*Library*/
+.library-box {
+    
+    width: 350px;
+    height: 750px;
+    background: radial-gradient(circle, rgb(31, 36, 44) 100%, rgb(49, 60, 68) 100%);
+    border-radius: 20px;
+}
+
+.library-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image2 {
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down,.fav {
+    padding: 8px 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(38, 39, 41) 100%, rgba(32,35,41,1) 100%);
+    box-shadow: 1px 1px 1px #797C7F;
+}
+
+.music-list {
+    
+    padding: 20px ;
+    margin-top: 20px;
+    border-top: 2px solid #34383d;
+    border-top-right-radius:20px  ;
+    border-top-left-radius:20px ;
+
+   
+}
+
+.list {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+}
+
+.list h5 {
+    
+    color: #999999;
+    font-size: 14px;
+}
+
+.list h6 {
+    color: #666666;
+    font-size: 10px;
+}
+
+.orange {
+    padding:5px;
+    background: #111216; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 1px 1px 1px #D3450A;
+}
+
+.music-play {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(38, 39, 41) 100%, rgba(32,35,41,1) 100%);
+    box-shadow: 1px 1px 1px #797C7F;
+}
+
+.music-pause {
+    
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(236,84,14,1) 100%, rgba(214,54,31,1) 100%); 
+    
+}
+
+
+/*Player*/
+.player-box {
+    padding-top: 20px;
+    width: 350px;
+    height: 750px;
+    background: radial-gradient(circle, rgb(31, 36, 44) 100%, rgb(49, 60, 68) 100%);
+    border-radius: 20px;
+}
+
+
+.player-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.back, .menu-icon {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(38, 39, 41) 100%, rgba(32,35,41,1) 100%);
+    box-shadow: 1px 1px 1px #797C7F;
+}
+
+.player-title h5 {
+    font-family: 'Russo One', sans-serif;
+    color: #999999;
+}
+
+.artist {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #666666;
+}
+
+.volume {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.player-word {
+    
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+}
+
+.player-word h6 {
+    
+    line-height: 1.5rem;
+    font-size: 10px;
+    color: #666666;
+}
+
+.player-word .orange-word {
+    color: #E34715;
+}
+
+
+
