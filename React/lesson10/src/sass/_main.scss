@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@900&family=Poppins:wght@200;500;600&display=swap');
+
+.main {
+    background-color: #121117;
+    width: 100%;
+    height: 96vh;
+   
+}
+
+nav {
+    position: fixed;
+    z-index: 2;
+    padding: 20px 25px!important;
+    top: 0;
+    width: 100%;
+   
+}
+
+.nav-link{
+    color:#f5f5f5!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nav-item {
+    padding: 5px 10px;
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+}
+
+.dropdown-menu {
+    background-color: #eeeeee;
+    width: max-content;
+    min-width: 14.375rem;
+    padding: 0.625rem 0;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.dropdown-item {
+    padding: 0.625rem 1.25rem;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #121117;
+    transition: .4s;
+
+}
+
+.dropdown-item:hover {
+    color: #4528dc;
+    transition: .4s;
+}
+
+.connect {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    line-height: 1;
+    text-align: center;
+    padding: 16px 30px!important;
+    border-radius: 100px;
+    outline: 0 none;
+    cursor: pointer;
+    z-index: 1;
+    background: transparent;
+    border: 2px solid #fff;
+    
+
+}
+
+.connect:hover {
+    border: 2px solid #4528dc ;
+    outline: 0 none;
+    background-image: linear-gradient(150deg, #57048a 0%, #4528dc 78%);
+    transition: .4s;
+}
+
+.connect i {
+    margin-right: 10px;
+}
+
+
+
+.icons {
+    margin-right: 30px;
+}
+
+
+.hero-section {
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 130px;
+    position: relative;
+    background-color: #121117;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.storm {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-image: linear-gradient(150deg, #57048a 0%, #4528dc 78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &::after {
+        position: absolute;
+    content: '';
+    height: 3px;
+    width: 45px;
+    background-image: linear-gradient(135deg, #4528dc 10%, #57048a);
+    top: 50%;
+    left: calc(100% + 20px);
+    transform: translateY(-50%);
+    }
+}
+
+.discover {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1.2;
+    font-family: 'Jost', sans-serif;
+}
+
+.hero-text {
+    margin-top: 1.5rem;
+    color: #8e8e8e;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-group {
+   margin-top: 30px;
+
+a {
+  margin-right: 10px;
+  border: 2px solid #fff;
+  position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white!important;
+    line-height: 1;
+    text-align: center;
+    padding: 16px 34px;
+    border-radius: 100px;
+    outline: 0 none;
+    cursor: pointer;
+    z-index: 1;
+    transition: .4s;
+
+
+    &:hover {
+    border: 2px solid #4528dc ;
+    outline: 0 none;
+    background-image: linear-gradient(150deg, #57048a 0%, #4528dc 78%);
+    transition: .4s;
+    }
+}
+}
+
+
+.shape {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    line-height: 0;
+    direction: ltr;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+.slidenav {
+    display: block;
+    position: fixed;
+    top: -26px;
+    right: 0;
+    z-index: 10;
+    width: 0;
+    overflow-x: hidden;
+    transition: .5s;
+    margin-left: 0px;
+    .modal-dialog {
+    transform: translate(0, 0);
+    position: relative;
+    width: auto;
+ 
+
+        .modal-content{
+            background-color:#09080d;
+            border: none;
+            height: 730px;
+            border-radius: 0;
+            overflow-x: hidden;
+
+            .modal-header {
+                
+                padding: 2rem;
+                border: none;
+                font-weight: 600;
+                border-radius: 0;
+
+                h5 {
+                    font-family: 'Poppins', sans-serif;
+                    color: #8e8e8e;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+               a {
+                   text-decoration: none;
+                i {
+                    color: #8e8e8e;
+                    font-size: 16px;
+                }
+               }
+            }
+
+            .modal-body {
+                display: flex;
+                align-items: center;
+                padding: 2rem;
+
+                form {
+                     
+                    .col-12 {
+                        
+                        .search-title{
+                            margin-bottom: 1rem!important;
+                            margin-top: 0!important;
+                            font-size: 45px;
+                            font-weight: 700;
+                            line-height: 1em;
+                            color: #f5f5f5;
+                            letter-spacing: -1.6px;
+                            font-family: 'Jost', sans-serif;
+                        }
+
+                        p {
+                            font-size: 1rem;
+                            color: #8e8e8e;
+                            font-weight: 400;
+                            margin: 1.5rem 0;
+                            
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+
+
+                        .input-group {
+                            margin-top: 1.5rem!important;
+
+                            input {
+                                background-color: transparent;
+                                border-color: #8e8e8e;
+                                color: #8e8e8e;
+                                width: 100%;
+                                height: 50px;
+                                box-shadow: none;
+                                padding: 0.7rem 1rem;
+                                border-width: 2px;
+                                border-radius: 2px;
+
+                            }
+
+                            .btn {
+                                background: transparent none repeat scroll 0 0;
+                                border: 2px solid #fff;
+                                position: relative;
+                                font-size: 1rem;
+                                font-weight: 700;
+                                color: #f9f9f9;
+                                line-height: 1;
+                                text-align: center;
+                                padding: 16px 34px;
+                                border-radius: 100px;
+                                outline: 0 none;
+                                margin-top: 1rem!important;
+                                transition: .4s;
+
+
+                                &:hover {
+                                    border: 2px solid #4528dc ;
+                                    outline: 0 none;
+                                    background-image: linear-gradient(150deg, #57048a 0%, #4528dc 78%);
+                                    transition: .4s;
+                                    }
+                            }
+                        }
+
+
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
