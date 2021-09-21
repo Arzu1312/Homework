@@ -1,0 +1,122 @@
+
+
+.main {
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    
+
+    .main-section {
+        position: relative;
+        width: 1519px;
+        left: -174.6px;
+    
+        .elementor-container {
+            max-width: 1200px;
+            display: flex;
+            margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    
+           .elementor-column {
+               display: flex;
+               position: relative;
+               min-height: 1px;
+    
+               .elementor-widget {
+                padding: 0 15px;
+                position: relative;
+                display: flex;
+                width: 100%;
+    
+                 .elementor-element {
+                     position: relative;
+                     width: 100%;
+    
+                     .elementor-widget-container {
+    
+                        .revslider {
+                            margin-top: 0;
+                            position: relative;
+    
+                            .carousel {
+                               
+                                .carousel-inner {
+                                
+                                    .carousel-item {
+                                       
+                                        .layer-wrap {
+                                           
+                                           margin-left: 400px;
+                                           transform: translateY(-320px);
+                                           font-family: 'Inter', sans-serif;
+                                            h1 {
+                                              font-size: 32px;
+                                                color: #2b2b2b;
+
+                                                span {
+                                                    line-height: 25px;
+                                                    letter-spacing: 0px;
+                                                    font-weight: 600;
+                                                }
+                                            }
+
+                                            p {
+                                                color: #666;
+                                                font-size: 14px;
+                                            }
+
+                                            h4 {
+                                                color: rgb(212, 56, 17);
+                                                font-size: 24px;
+                                                font-weight: 600;
+                                            }
+
+                                            .shop-btn {
+                                                margin-top: 50px;
+
+                                                a {
+                                                    text-decoration: none;
+                                                    color: #2b2b2b;
+                                                    font-weight: bolder;
+                                                    padding: 15px 30px;
+                                                    border-radius: 3px;
+                                                    background-color: rgb(252, 184, 0);
+                                                    transition: .5s;
+
+                                                    
+                                                    &:hover {
+                                                        transition: .5s;
+                                                        filter: grayscale(50%);
+                                                    }
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                     }
+                 }
+               }
+           }
+        }
+    }
+}
+
+
+.prev, .next {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #2b2b2b;
+    border-radius: 5px;
+    transition: .4s;
+
+    &:hover {
+    transition: .4s;
+        border-color: #fcb800;
+        
+    }
+   
+}

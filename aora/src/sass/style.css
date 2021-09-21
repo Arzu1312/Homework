@@ -1,0 +1,2084 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.header {
+  margin: 0;
+  padding: 0;
+  z-index: 1001;
+  background: #fff;
+  position: relative;
+}
+
+.elementor-section {
+  padding-top: 89.2px;
+}
+
+.elementor-section .elementor-top {
+  top: 0;
+  background-color: #FCB800;
+  padding: 20px 0px 18px 0px;
+  position: fixed !important;
+  width: 100%;
+  z-index: 300;
+  left: 0;
+  right: 0;
+}
+
+.elementor-section .elementor-top .elementor-container {
+  max-width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column {
+  min-height: 1px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0 15px;
+  position: relative;
+  width: 100%;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element {
+  width: 100%;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .header-logo {
+  padding-left: 40px;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .header-logo a {
+  text-decoration: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .header-logo a img {
+  max-width: 117px;
+  height: auto;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container {
+  padding: 0px 20px 0px 30px;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search {
+  padding-left: 60px;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group {
+  margin-bottom: 0;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+  width: 100%;
+  border: 0;
+  background: #fff;
+  max-width: 100%;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group .tbay-search {
+  outline: none !important;
+  border: none;
+  float: none;
+  font-size: 14px;
+  background: #FFFFFF;
+  color: #2B2B2B;
+  padding: 0px 0px 0px 16px;
+  height: 45px;
+  min-width: 200px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  -ms-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  width: 547px;
+  margin-bottom: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group .select-category {
+  line-height: 45px;
+  height: 45px;
+  color: #666;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  font-size: inherit;
+  max-width: 50%;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group .select-category .sumoselect {
+  width: auto;
+  display: block;
+  position: relative;
+  outline: none;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group .select-category .sumoselect .form-select {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 45px;
+  width: 60px;
+  border: none;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group .button-group {
+  background-color: #023047;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  border-radius: 0 3px 3px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group .button-group .button-search {
+  padding: 10px 25px 0px 25px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .search-form .aora-search .form-group .input-group .button-group .button-search span {
+  text-align: center;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 60px;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container {
+  margin: 5px 0px 0px 0px;
+  padding: 0px 16px 0px 16px;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .wishlist-icon a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 44px;
+  height: 44px;
+  position: relative;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .wishlist-icon a i {
+  font-size: 25px !important;
+  color: #000000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .wishlist-icon a i:hover {
+  color: #444;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .wishlist-icon a span {
+  font-size: 10px;
+  left: 15px;
+  position: absolute;
+  background: #d43811;
+  color: #fff;
+  top: 0;
+  min-width: 20px;
+  padding: 0 2px;
+  line-height: 20px;
+  font-size: 12px;
+  right: auto;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .mini-cart-icon .cart-popup {
+  position: relative;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .mini-cart-icon .cart-popup a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 44px;
+  height: 44px;
+  position: relative;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .mini-cart-icon .cart-popup a i {
+  font-size: 25px !important;
+  color: #000000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .mini-cart-icon .cart-popup a i:hover {
+  color: #444;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .mini-cart-icon .cart-popup a span {
+  font-size: 10px;
+  left: 15px;
+  position: absolute;
+  background: #d43811;
+  color: #fff;
+  top: 0;
+  min-width: 20px;
+  padding: 0 2px;
+  line-height: 20px;
+  font-size: 12px;
+  right: auto;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .account-icon .login a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 44px;
+  height: 44px;
+  position: relative;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .account-icon .login a i {
+  font-size: 25px !important;
+  color: #000000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.elementor-section .elementor-top .elementor-container .elementor-column .elementor-icon .elementor-icon-container .account-icon .login a i:hover {
+  color: #444;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  max-width: 1170px;
+  margin-top: 9px !important;
+}
+
+.inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inner-item {
+  list-style: none;
+  padding: 20px;
+}
+
+.inner-item li a {
+  position: relative;
+  display: initial;
+  text-decoration: none;
+  line-height: 20px;
+  padding: 3px 0;
+  font-size: 14px;
+  color: #2b2b2b !important;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.inner-item li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.inner-item li a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.dropdown-item {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #222;
+}
+
+.content-view {
+  min-height: 140px;
+  background: #fff;
+  padding: 25px 13px;
+}
+
+.content-view .list-recent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  width: 100%;
+}
+
+.content-view .list-recent .product-item {
+  max-width: 10%;
+  padding: 0 12px;
+}
+
+.content-view .list-recent .product-item img {
+  width: 88px;
+  height: 132px;
+}
+
+.elementor-bottom {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #DDDDDD;
+  position: relative;
+}
+
+.elementor-bottom .elementor-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 1200px;
+}
+
+.elementor-bottom .elementor-container .elementor-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+}
+
+.elementor-bottom .elementor-container .elementor-column .elementor-widget {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.elementor-bottom .elementor-container .elementor-column .elementor-widget .elementor-element {
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.elementor-bottom .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .nav-menu .menu-btn a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.elementor-bottom .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .nav-menu .menu-btn a i {
+  font-size: 18px;
+  padding: 0px 11px 0px 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #2B2B2B;
+}
+
+.elementor-bottom .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .nav-menu .menu-btn a h4 {
+  color: #2B2B2B;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  float: none;
+  width: 100%;
+  padding-left: 20px;
+  position: unset;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  z-index: 999;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+  margin: 0px 5px 0px 30px;
+  padding: 0;
+  line-height: 37px;
+  font-size: 17px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.navbar-nav .nav-item .nav-link .fa-chevron-down {
+  font-size: 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #fcb800;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.product-item img {
+  border: 1px solid transparent;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.product-item img:hover {
+  border-color: #ddd;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner .wrapper-content-banner {
+  padding: 4px 0px 0px 32px;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.banner .content-banner .banner-title {
+  margin-top: 23px;
+  margin-bottom: 11.5px;
+  color: #222;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.banner .content-banner .banner-desc {
+  margin: 20px 0px 0px 0px;
+}
+
+.btn-readmore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center !important;
+  color: #2b2b2b;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.side-menu {
+  background-color: #fff;
+  width: 290px;
+  height: 100vh;
+  padding: 33px 0;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+  z-index: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.side-menu .canvas-close {
+  text-decoration: none;
+  font-size: 27px;
+  height: 20px;
+  padding: 0 24px;
+  color: #444;
+}
+
+.side-menu .canvas-title {
+  padding: 0 24px 25px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 47px;
+  margin-bottom: 29px;
+  color: #222;
+}
+
+.side-menu .canvas-categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu .canvas-categories li {
+  padding: 9px 24px;
+  position: relative;
+}
+
+.side-menu .canvas-categories li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 24px;
+  right: auto;
+  width: calc(100% - 48px);
+  height: 1px;
+  background: #ddd;
+}
+
+.side-menu .canvas-categories li a {
+  text-decoration: none;
+  position: relative;
+  display: initial;
+  padding: 0;
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+.side-menu .canvas-categories li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.side-menu .canvas-categories li a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.side-menu .canvas-categories .item {
+  position: relative;
+}
+
+.side-menu .canvas-categories .item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 24px;
+  right: auto;
+  width: calc(100% - 48px);
+  height: 1px;
+  background: #ddd;
+}
+
+.side-menu.active {
+  left: 0;
+  -webkit-transition: 350ms;
+  transition: 350ms;
+}
+
+.main {
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main .main-section {
+  position: relative;
+  width: 1519px;
+  left: -174.6px;
+}
+
+.main .main-section .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.main .main-section .elementor-container .elementor-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-height: 1px;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider {
+  margin-top: 0;
+  position: relative;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap {
+  margin-left: 400px;
+  -webkit-transform: translateY(-320px);
+          transform: translateY(-320px);
+  font-family: 'Inter', sans-serif;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap h1 {
+  font-size: 32px;
+  color: #2b2b2b;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap h1 span {
+  line-height: 25px;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap p {
+  color: #666;
+  font-size: 14px;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap h4 {
+  color: #d43811;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap .shop-btn {
+  margin-top: 50px;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap .shop-btn a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-weight: bolder;
+  padding: 15px 30px;
+  border-radius: 3px;
+  background-color: #fcb800;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.main .main-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .revslider .carousel .carousel-inner .carousel-item .layer-wrap .shop-btn a:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.prev, .next {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #2b2b2b;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.prev:hover, .next:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-color: #fcb800;
+}
+
+.category {
+  width: 100%;
+  height: 140vh;
+  overflow-x: hidden;
+}
+
+.category .category-section {
+  width: 1519px;
+  left: -174.6px;
+}
+
+.category .category-section .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.category .category-section .elementor-container .elementor-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-height: 1px;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container {
+  padding: 64px 0px 76px 0px;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+  text-align: left;
+  font-weight: 600;
+  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0px 0px 20px 0px;
+  letter-spacing: -0.3px;
+  color: #2b2b2b;
+  font-family: 'Inter', sans-serif;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-left: -10px;
+  margin-right: -10px;
+  background: #fff;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat {
+  text-align: center !important;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  width: 178px;
+  height: 196px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.116);
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.116);
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat .cat-image {
+  display: block;
+  text-decoration: none;
+  padding: 12px 0px 0px 0px;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat .cat-image img {
+  width: 110px;
+  height: 131px;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat .content {
+  line-height: 22px;
+  display: block;
+  padding: 0 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat .content a {
+  display: initial;
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #2B2B2B;
+  font-family: 'Inter', sans-serif;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat .content a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .list-categories .image-list .item-image .item-cat .content a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .images-group {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .images-group .image-row {
+  padding-right: 20px;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .images-group .image-row .zoom-in:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .images-group .image-row .zoom-in figure {
+  overflow: hidden;
+}
+
+.category .category-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .images-group .image-row .zoom-in figure img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.sell {
+  width: 100%;
+  height: 60vh;
+  overflow-x: hidden;
+}
+
+.sell .sell-section {
+  position: relative;
+  width: 1519px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 64px 0px 39px 0px;
+}
+
+.sell .sell-section .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.sell .sell-section .elementor-container .elementor-column {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #DDDDDD;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 50px 0px 48px 0px;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column {
+  width: 25%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget {
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: #DDDDDD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element .elementor-widget-container {
+  margin: -7px 0px 0px 0px;
+  padding: 0px 50px 0px 30px;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element .elementor-widget-container .icon-box {
+  text-align: left;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element .elementor-widget-container .icon-box .elementor-icon {
+  margin-bottom: 0px;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element .elementor-widget-container .icon-box .elementor-icon i {
+  font-size: 45px;
+  color: #fcb800;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element .elementor-widget-container .icon-box .icon-content {
+  font-family: 'Inter', sans-serif;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element .elementor-widget-container .icon-box .icon-content h3 {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #2b2b2b;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .inner-widget .elementor-element .elementor-widget-container .icon-box .icon-content p {
+  color: #595959;
+  margin: 0;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element .elementor-widget-container {
+  margin: -7px 0px 0px 0px;
+  padding: 0px 50px 0px 30px;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element .elementor-widget-container .icon-box {
+  text-align: left;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element .elementor-widget-container .icon-box .elementor-icon {
+  margin-bottom: 0px;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element .elementor-widget-container .icon-box .elementor-icon i {
+  font-size: 45px;
+  color: #fcb800;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element .elementor-widget-container .icon-box .icon-content {
+  font-family: 'Inter', sans-serif;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element .elementor-widget-container .icon-box .icon-content h3 {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #2b2b2b;
+}
+
+.sell .sell-section .elementor-container .elementor-column .elementor-widget .inner-sell .inner-container .inner-column .widget .elementor-element .elementor-widget-container .icon-box .icon-content p {
+  color: #595959;
+  margin: 0;
+}
+
+.explore {
+  width: 100%;
+  height: 170vh;
+  overflow-x: hidden;
+}
+
+.explore .explore-section {
+  position: relative;
+  width: 1519px;
+  padding: 26px 0px 88px 0px;
+}
+
+.explore .explore-section .elementor-container {
+  max-width: 1200px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.explore .explore-section .elementor-container .elementor-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .heading-title {
+  line-height: 36px;
+  text-align: left;
+  font-weight: 600;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin: 0px 0px 19px 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 9px;
+  font-family: 'Inter', sans-serif;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .heading-title .title {
+  font-size: 24px;
+  letter-spacing: -0.3px;
+  margin-right: 12px;
+  margin-left: 0;
+  color: #2b2b2b;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .heading-title .subtitle {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #595959;
+  padding-top: 4px;
+  letter-spacing: 0;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card {
+  width: 220px;
+  border: none;
+  margin-right: 10px;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .img-box img {
+  width: 210px;
+  height: 315px;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body {
+  width: 180px;
+  padding: 1rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body h5 {
+  position: relative !important;
+  color: #444;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body h5::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body h5:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body p {
+  position: relative !important;
+  margin-top: 3px;
+  color: #666;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body p::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body p:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.explore .explore-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .products .card .card-body h6 {
+  color: #d43811;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.trending {
+  width: 100%;
+  height: 70vh;
+  background: #f5f5f5;
+  overflow-x: hidden;
+}
+
+.trending .trending-section {
+  width: 1519px;
+  left: -174.6px;
+}
+
+.trending .trending-section .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.trending .trending-section .elementor-container .elementor-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-height: 1px;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list {
+  padding-top: 70px;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list h3 {
+  padding: 0px 0px 18px 0px;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+  text-align: left;
+  font-weight: 600;
+  position: relative;
+  color: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: -0.3px;
+  font-family: 'Inter', sans-serif;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list h3 .title {
+  margin-right: 12px;
+  margin-left: 0;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list h3 .subtitle {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #595959;
+  padding-top: 8px;
+  letter-spacing: 0;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags {
+  width: 1400px;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item {
+  width: 218px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item .item-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item .item-tag .content {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding: 18px 26px 25px;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item .item-tag .content a {
+  position: relative;
+  text-decoration: none;
+  font-weight: 700;
+  color: #2b2b2b;
+  font-size: 14px;
+  line-height: 28px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item .item-tag .content a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item .item-tag .content a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item .item-tag .content .tag-hover span {
+  color: #595959;
+  line-height: 22px;
+}
+
+.trending .trending-section .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .trend-list .list-tags .owl-theme .item:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.116);
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.116);
+}
+
+.footer {
+  width: 100%;
+  height: 100vh;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #DDDDDD;
+  display: block;
+  position: relative;
+}
+
+.footer .elementor {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer .elementor .elementor-section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer .elementor .elementor-section .top-footer {
+  padding: 20px 0px 0px 0px;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column {
+  width: 50%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element h3 .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2b2b2b;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element h3 .subtitle {
+  color: #666666;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  padding-top: 4px;
+  letter-spacing: 0;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .form .form-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .form .form-fields .form-control {
+  width: 400px;
+  border-style: solid;
+  border-width: 1px 0px 1px 1px;
+  border-color: #CCCCCC;
+  border-radius: 3px 0px 0px 3px;
+  height: 46px;
+  padding: 0 0 0 16px;
+  float: none;
+  line-height: normal;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #495057;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .form .form-fields button {
+  width: 170px;
+  font-weight: 700;
+  color: #000000;
+  border-radius: 0px 3px 3px 0px;
+  border: 0;
+  padding: 0 15px;
+  background: #fcb800;
+  line-height: 45px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.footer .elementor .elementor-section .top-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .form .form-fields button:hover {
+  background: #efae00;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.footer .elementor .elementor-section .footer-line {
+  margin-top: 61px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .footer-line .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .footer-line .elementor-container .elementor-column {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .footer-line .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .footer-line .elementor-container .elementor-column .elementor-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.footer .elementor .elementor-section .footer-line .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .elementor-spacer .elementor-spacer-inner {
+  width: 1170px;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #DDDDDD;
+}
+
+.footer .elementor .elementor-section .main-footer {
+  padding: 37px 0px 34px 0px;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column {
+  width: 25%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget {
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element {
+  position: relative;
+  width: 100%;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element {
+  font-family: 'Inter', sans-serif;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 20px 0px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element h3 .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2b2b2b;
+  line-height: 22px;
+  margin-bottom: 0px;
+  letter-spacing: -0.3px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .menu-vertical-container {
+  margin-bottom: 9px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .menu-vertical-container .menu-vertical {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .menu-vertical-container .menu-vertical li {
+  font-family: 'Inter', sans-serif;
+  line-height: 30px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .menu-vertical-container .menu-vertical li a {
+  position: relative;
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .menu-vertical-container .menu-vertical li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .menu-vertical-container .menu-vertical li a:hover {
+  color: #444;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .elementor-widget .elementor-element .elementor-widget-container .tbay-element .menu-vertical-container .menu-vertical li a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget {
+  padding: 0 15px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-heading {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-heading .elementor-widget-container {
+  padding: 0px 0px 15px 0px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-heading .elementor-widget-container h2 {
+  font-family: 'Inter', sans-serif;
+  color: #222222;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container {
+  font-family: 'Inter', sans-serif;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container p {
+  margin: 0;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container p a {
+  color: #d43811;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container .address {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container .name {
+  color: #666;
+  font-size: 14px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container .elementor-social-icons {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container .elementor-social-icons .social-item {
+  margin-right: 30px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container .elementor-social-icons .social-item a {
+  text-decoration: none;
+  color: #595959;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container .elementor-social-icons .social-item a i {
+  font-size: 18px;
+}
+
+.footer .elementor .elementor-section .main-footer .elementor-container .elementor-column .contact-elementor-widget .elementor-widget-container .elementor-social-icons .social-item a:hover {
+  color: #ffd31a;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.footer .elementor .elementor-section .bottom-footer {
+  width: 1519px;
+  left: 0px;
+  position: relative;
+  padding: 0px 0px 30px 0px;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .first {
+  width: 23%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .first .elementor-widget {
+  width: 100%;
+  padding: 0 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .first .elementor-widget .elementor-element {
+  color: #666666;
+  line-height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .first .elementor-widget .elementor-element .elementor-widget-container {
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: #E8E8E8;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .second {
+  width: 43.332%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .second .elementor-widget {
+  width: 100%;
+  padding: 8px 0px 0px 10px !important;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .second .elementor-widget .elementor-element {
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .second .elementor-widget .elementor-element .elementor-widget-container .paypal {
+  vertical-align: middle;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third {
+  width: 33.3%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget {
+  width: 100%;
+  padding: 0px 0px 0px 10px !important;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element {
+  width: auto !important;
+  position: relative;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a .eng, .footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a .ru, .footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a .fr {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 9px;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a span::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  left: 0;
+  bottom: 0;
+  background: #444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a span:hover {
+  color: #444;
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a span:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.footer .elementor .elementor-section .bottom-footer .elementor-container .third .elementor-widget .elementor-element .elementor-widget-container .dropup a i {
+  font-size: 12px;
+  margin: 3px 0px 0px 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=style.css.map */
