@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+}
+
+.app {
+    width: 400px;
+    min-height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    background: #e5e5e5;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+form {
+    margin: 20px;
+    height: 40px;
+    width: 100%;
+}
+
+form input,
+form button {
+    width: 250px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.87),
+                inset 5px 5px 5px rgba(0, 0, 0, 0.301);
+}
+
+form button {
+    width: 80px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.301),
+                inset 5px 5px 5px rgba(255, 255, 255, 0.87);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    color: teal;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-shadow: 0px 5px 6px rgba(97, 97, 97, 0.7);
+
+}
+
+ul li {
+    list-style: none;
+    margin: 15px 0;
+    padding: 10px;
+    box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.815),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.301);
+    animation: opacity 0.2s linear;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+}
+
+
+.row {
+    float: right;
+}
+
+.row i {
+    color: lightcoral;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.row i:hover {
+    color: lightseagreen;
+    transition: .2s;
+}
