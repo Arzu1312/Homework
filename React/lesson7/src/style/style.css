@@ -62,7 +62,7 @@
 
 .image {
     margin-top: 40px;
-    animation: myanimate infinite 5s ;
+    animation: myanimate infinite ease-in-out 5s ;
 }
 
 .item-group {
@@ -260,11 +260,11 @@
 
 
 @keyframes myanimate {
-    from {
+    0%{
         transform: translateY(0);
     }
 
-    to {
+     50%{
         transform: translateY(-20px);
     }
 }
@@ -388,11 +388,11 @@ background-size: cover;
 
 
 @keyframes rotate {
-    from {
+    0%{
         transform: rotate(0deg);
     }
 
-    to {
+    50%{
         transform: rotate(360deg);
     }
 }
@@ -524,21 +524,21 @@ display: flex;
 }
 
 @keyframes rightMove {
-    from {
+    0%{
         transform: translateX(0px);
     }
 
-    to {
+    50%{
         transform: translateX(40px);
     }
 }
 
 @keyframes topMove {
-    from {
+    0%{
         transform: translateY(0px);
     }
 
-    to {
+    50%{
         transform: translateY(50px);
     }
 }

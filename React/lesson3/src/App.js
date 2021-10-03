@@ -54,24 +54,19 @@ class App extends React.Component{
  } 
 
  incrementCount = (id) => {
-
-   let newProducts = this.state.products
-    newProducts.map(product => {
-      if (id === product.id) {
-        product.count ++;
-      }
-    })
-   this.setState({products:newProducts}) 
-  // console.log(newProducts)
+   this.setState({
+     products: this.state.products.map(product => (
+       id === product.id ? {...product, count: product.count+1} : product
+     ))
+   })
+   
  }
  decrementCount = (id) => {
-  let newProducts = this.state.products
-  newProducts.map(product => {
-    if (id === product.id && product.count > 1) {
-      product.count --;
-    }
-  })
-  this.setState({products:newProducts}) 
+  this.setState({
+    products: this.state.products.map(product => (
+      (id === product.id && product.count > 1 ) ? {...product, count: product.count-1} : product
+    ))
+    })
  }
   render() {
     return (

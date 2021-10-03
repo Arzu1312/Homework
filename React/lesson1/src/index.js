@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/scss/bootstrap.scss';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import './sass/style.scss';
 import logo from './logo.png';
 import img1 from './img-1.png';
@@ -39,8 +37,8 @@ var root = document.getElementById("root");
 
 var temp = (
 
-
     <div>
+      
         <div className="header">
         <nav className="navbar navbar-expand-lg" >
         <div className="container">
@@ -140,7 +138,7 @@ var temp = (
 
 <section className="part2">
 <div className="container">
-<div className="title" data-aos="fade-up" data-aos-duration="2s">
+<div className="title" >
     <h4>Join millions getting more mindful with Headspace</h4>
   </div>
 <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -795,8 +793,12 @@ var temp = (
       </div>
     </div>
   </div>
+
+  
 </section>
-    </div>
+
+</div>
+
 )
 
 ReactDOM.render(temp,root);
